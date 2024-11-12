@@ -65,9 +65,9 @@
   <project name="android_hardware_qcom_audio" path="hardware/qcom-caf/sdm845/audio" remote="lineage" revision="106fb71b11c026f35efa80765cecc63e3bc3ef8f" upstream="lineage-22.0-caf-sdm845" dest-branch="lineage-22.0-caf-sdm845" groups="qcom,sdm845"/>
   <project name="android_hardware_qcom_audio" path="hardware/qcom-caf/sm8150/audio" remote="lineage" revision="7f013e0c1a6f0f1da421f9e8f5162ecd3bf195fd" upstream="lineage-22.0-caf-sm8150" dest-branch="lineage-22.0-caf-sm8150" groups="qcom,msmnile"/>
   <project name="android_hardware_qcom_audio" path="hardware/qcom-caf/sm8250/audio" remote="lineage" revision="d71b84a15173cfc8db1cd09a95d7f936347c0cbc" upstream="lineage-22.0-caf-sm8250" dest-branch="lineage-22.0-caf-sm8250" groups="qcom,kona"/>
-  <project name="android_hardware_qcom_audio" path="hardware/qcom-caf/sm8350/audio" remote="lineage" revision="3916c043372f600faf98854fbef8873cfa5b4946" upstream="lineage-22.0-caf-sm8350" dest-branch="lineage-22.0-caf-sm8350" groups="qcom,lahaina"/>
-  <project name="android_hardware_qcom_audio-ar" path="hardware/qcom-caf/sm8450/audio/primary-hal" remote="lineage" revision="7535d6ae5f7ef710b2dd97fe0ceb581437c95e06" upstream="lineage-22.0-caf-sm8450" dest-branch="lineage-22.0-caf-sm8450" groups="qcom,waipio-vendor"/>
-  <project name="android_hardware_qcom_audio-ar" path="hardware/qcom-caf/sm8550/audio/primary-hal" remote="lineage" revision="f784a33c6ed00200d36c2297dd7930bcf5c4a650" upstream="lineage-22.0-caf-sm8550" dest-branch="lineage-22.0-caf-sm8550" groups="qcom,kailua-audio"/>
+  <project name="android_hardware_qcom_audio" path="hardware/qcom-caf/sm8350/audio" remote="lineage" revision="b8006e81521e6654c6774907f1d863971036bd26" upstream="lineage-22.0-caf-sm8350" dest-branch="lineage-22.0-caf-sm8350" groups="qcom,lahaina"/>
+  <project name="android_hardware_qcom_audio-ar" path="hardware/qcom-caf/sm8450/audio/primary-hal" remote="lineage" revision="ead18037c4f97c2cb9e6e4252358126c0f094541" upstream="lineage-22.0-caf-sm8450" dest-branch="lineage-22.0-caf-sm8450" groups="qcom,waipio-vendor"/>
+  <project name="android_hardware_qcom_audio-ar" path="hardware/qcom-caf/sm8550/audio/primary-hal" remote="lineage" revision="abf63538bd5c29f716a6199e0a9d48725a450a44" upstream="lineage-22.0-caf-sm8550" dest-branch="lineage-22.0-caf-sm8550" groups="qcom,kailua-audio"/>
   <project name="android_hardware_qcom_bootctrl" path="hardware/qcom-caf/bootctrl" remote="lineage" revision="34852e4c9e0490bf1ec8eabad810065c1a1550e4" upstream="lineage-22.0-caf" dest-branch="lineage-22.0-caf" groups="qcom,kailua-vendor"/>
   <project name="android_hardware_qcom_bt" path="hardware/qcom-caf/bt" remote="lineage" revision="b7218e4c89817079546f035f3cfe5f99b4730d43" upstream="lineage-22.0-caf" dest-branch="lineage-22.0-caf" groups="qcom,legacy-qcom"/>
   <project name="android_hardware_qcom_camera" path="hardware/qcom/camera" remote="lineage" revision="89e2080864ea3164368a6b1781c21588e1680fde" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="qcom,qcom_camera,pdk-qcom"/>
@@ -88,7 +88,7 @@
   <project name="android_hardware_qcom_media" path="hardware/qcom-caf/msm8953/media" remote="lineage" revision="90a808309f461f139161f504e44e341f4f6f2fb6" upstream="lineage-22.0-caf-msm8953" dest-branch="lineage-22.0-caf-msm8953" groups="qcom,msm8953"/>
   <project name="android_hardware_qcom_media" path="hardware/qcom-caf/msm8996/media" remote="lineage" revision="201a5e8f4f170830925ac9417a7969783c36c46d" upstream="lineage-22.0-caf-msm8996" dest-branch="lineage-22.0-caf-msm8996" groups="qcom,legacy-qcom"/>
   <project name="android_hardware_qcom_media" path="hardware/qcom-caf/msm8998/media" remote="lineage" revision="4f25bfc904a3e0f8b45094f9a248d3923a4fd382" upstream="lineage-22.0-caf-msm8998" dest-branch="lineage-22.0-caf-msm8998" groups="qcom,legacy-qcom"/>
-  <project name="android_hardware_qcom_media" path="hardware/qcom-caf/sdm660/media" remote="lineage" revision="a37857abd6732c73f7bcd0a88fb3f25d539854d0" upstream="lineage-22.0-caf-sdm660" dest-branch="lineage-22.0-caf-sdm660" groups="qcom,sdm660"/>
+  <project name="android_hardware_qcom_media" path="hardware/qcom-caf/sdm660/media" remote="lineage" revision="82b8867099d28dcb7c5ed66fa1fac08efdc8cd9e" upstream="lineage-22.0-caf-sdm660" dest-branch="lineage-22.0-caf-sdm660" groups="qcom,sdm660"/>
   <project name="android_hardware_qcom_media" path="hardware/qcom-caf/sdm845/media" remote="lineage" revision="3d4652c674e5b6c4bb5f1842147cf03c263919eb" upstream="lineage-22.0-caf-sdm845" dest-branch="lineage-22.0-caf-sdm845" groups="qcom,sdm845"/>
   <project name="android_hardware_qcom_media" path="hardware/qcom-caf/sm8150/media" remote="lineage" revision="2befa216deefed5beb5029808a1c94f578cc89d9" upstream="lineage-22.0-caf-sm8150" dest-branch="lineage-22.0-caf-sm8150" groups="qcom,msmnile"/>
   <project name="android_hardware_qcom_media" path="hardware/qcom-caf/sm8250/media" remote="lineage" revision="20ac75533c462a9da770afb0abcf1b571de96ba2" upstream="lineage-22.0-caf-sm8250" dest-branch="lineage-22.0-caf-sm8250" groups="qcom,kona"/>
@@ -117,7 +117,7 @@
   <project name="android_hardware_qcom_sm8150_media" path="hardware/qcom/sm8150/media" remote="lineage" revision="68e650283b8ab29c9516e9afcc95801d4158434c" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="qcom,qcom_sm8150"/>
   <project name="android_hardware_qcom_thermal" path="hardware/qcom-caf/thermal" remote="lineage" revision="4928e8b62b232f990a5fa95a5b0d34de67f48a89" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="qcom,kailua-vendor"/>
   <project name="android_hardware_qcom_vr" path="hardware/qcom-caf/vr" remote="lineage" revision="d7c051add89a45090250c8f6c16c5c86f82be6b8" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="qcom,legacy-qcom"/>
-  <project name="android_hardware_qcom_wlan" path="hardware/qcom-caf/wlan" remote="lineage" revision="a667afff4347879e2f6a3eb9ac50cb83f17e1f3a" upstream="lineage-22.0-caf" dest-branch="lineage-22.0-caf" groups="qcom,kailua-vendor"/>
+  <project name="android_hardware_qcom_wlan" path="hardware/qcom-caf/wlan" remote="lineage" revision="dd4208e4ac435b87020a138246addf454213f201" upstream="lineage-22.0-caf" dest-branch="lineage-22.0-caf" groups="qcom,kailua-vendor"/>
   <project name="android_hardware_ril" path="hardware/ril" remote="lineage" revision="a5c16924b680cf9b1754428f028037eace52193f" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="pdk"/>
   <project name="android_hardware_samsung_nfc" path="hardware/samsung/nfc" remote="lineage" revision="114f93d09c5f88275698663d9322672d08a03752" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="pdk"/>
   <project name="android_hardware_st_nfc" path="hardware/st/nfc" remote="lineage" revision="03b0ef661c83041ca95fb1aff049c9f05670baea" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="pdk"/>
@@ -134,7 +134,7 @@
   <project name="android_prebuilts_tools-lineage" path="prebuilts/tools-lineage" remote="lineage" revision="10b65c9a4181390c2258a8c4f947e31f649b6756" upstream="lineage-22.0" dest-branch="lineage-22.0" clone-depth="1"/>
   <project name="android_system_libziparchive" path="system/libziparchive" remote="lineage" revision="3380a25a4d189cdffcaaf3bb5bd402f926f5b389" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="pdk"/>
   <project name="android_system_media" path="system/media" remote="lineage" revision="2545bded7a3205d4b282c27e7ff88d01894bdede" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="pdk"/>
-  <project name="android_tools_extract-utils" path="tools/extract-utils" remote="lineage" revision="2e5bd84dcb8a6ea31708725efa4906d3f3764468" upstream="lineage-22.0" dest-branch="lineage-22.0"/>
+  <project name="android_tools_extract-utils" path="tools/extract-utils" remote="lineage" revision="34010ec70ffe9bf82cd6738d92c73100f29bd378" upstream="lineage-22.0" dest-branch="lineage-22.0"/>
   <project name="android_vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="lineage" revision="4dc9aecf34f71ebb479c60d212d11477f387c9d8" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="qcom,qssi"/>
   <project name="android_vendor_nxp_interfaces_opensource_nfc" path="vendor/nxp/opensource/interfaces/nfc" remote="lineage" revision="222d05de80e1aad205c0246d35c2df5af6a39261" upstream="lineage-19.1" dest-branch="lineage-19.1"/>
   <project name="android_vendor_nxp_nfc" path="vendor/nxp/nfc" remote="lineage" revision="7b3d30c22a56c8200d3a87a2a120497382103633" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="nxp"/>
@@ -147,12 +147,12 @@
   <project name="android_vendor_nxp_secure_element" path="vendor/nxp/secure_element" remote="lineage" revision="acd4e715c4eee958e5abb700d7070ffbb3037bc5" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="nxp"/>
   <project name="android_vendor_nxp_secure_element_extns" path="vendor/nxp/secure_element_extns" remote="lineage" revision="9794c73f5a5b37116d6a161c4252c82c7ecf0ba0" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="nxp"/>
   <project name="android_vendor_qcom_opensource_agm" path="hardware/qcom-caf/sm8450/audio/agm" remote="lineage" revision="5655ea46b94413671cf3b9af14651191c4449dc1" upstream="lineage-22.0-caf-sm8450" dest-branch="lineage-22.0-caf-sm8450" groups="qcom,waipio-vendor"/>
-  <project name="android_vendor_qcom_opensource_agm" path="hardware/qcom-caf/sm8550/audio/agm" remote="lineage" revision="3df99ec16ccc0dc5cd43c86fd1d31985ac0694f7" upstream="lineage-22.0-caf-sm8550" dest-branch="lineage-22.0-caf-sm8550" groups="qcom,kailua-audio"/>
-  <project name="android_vendor_qcom_opensource_arpal-lx" path="hardware/qcom-caf/sm8450/audio/pal" remote="lineage" revision="752ec99ccd7e49856131596c1e943495bd0c20fe" upstream="lineage-22.0-caf-sm8450" dest-branch="lineage-22.0-caf-sm8450" groups="qcom,waipio-vendor"/>
-  <project name="android_vendor_qcom_opensource_arpal-lx" path="hardware/qcom-caf/sm8550/audio/pal" remote="lineage" revision="d2cd6652681bf82550df02be177818f172d96f92" upstream="lineage-22.0-caf-sm8550" dest-branch="lineage-22.0-caf-sm8550" groups="qcom,kailua-audio"/>
-  <project name="android_vendor_qcom_opensource_audio-hal_st-hal" path="vendor/qcom/opensource/audio-hal/st-hal" remote="lineage" revision="68d8705deab99367a1c4022470feb7a4bf8cc785" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="qcom,lahaina"/>
+  <project name="android_vendor_qcom_opensource_agm" path="hardware/qcom-caf/sm8550/audio/agm" remote="lineage" revision="c6a803daa47b63284418d8634e6fd7a66ee3034b" upstream="lineage-22.0-caf-sm8550" dest-branch="lineage-22.0-caf-sm8550" groups="qcom,kailua-audio"/>
+  <project name="android_vendor_qcom_opensource_arpal-lx" path="hardware/qcom-caf/sm8450/audio/pal" remote="lineage" revision="f9669f69314c5d929028ac2e95611c9e4c59ad78" upstream="lineage-22.0-caf-sm8450" dest-branch="lineage-22.0-caf-sm8450" groups="qcom,waipio-vendor"/>
+  <project name="android_vendor_qcom_opensource_arpal-lx" path="hardware/qcom-caf/sm8550/audio/pal" remote="lineage" revision="d169604461c83bbbe79d85565d0677df3ce67244" upstream="lineage-22.0-caf-sm8550" dest-branch="lineage-22.0-caf-sm8550" groups="qcom,kailua-audio"/>
+  <project name="android_vendor_qcom_opensource_audio-hal_st-hal" path="vendor/qcom/opensource/audio-hal/st-hal" remote="lineage" revision="b2a0060bb4fa63280419616eb6e17cf3c10a4d42" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="qcom,lahaina"/>
   <project name="android_vendor_qcom_opensource_audio-hal_st-hal-ar" path="vendor/qcom/opensource/audio-hal/st-hal-ar" remote="lineage" revision="e5c79db1737141fc31331d88ea67bc35e4d7e584" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="qcom,kailua-audio"/>
-  <project name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/bluetooth" remote="lineage" revision="6a51aea770febad01c59a8d788ec96181a87cfc8" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="qcom,qssi"/>
+  <project name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/bluetooth" remote="lineage" revision="eeba1c752225d9cc7a35eaee333f6fbf7be22890" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="qcom,qssi"/>
   <project name="android_vendor_qcom_opensource_core-utils-sys" path="vendor/qcom/opensource/core-utils-sys" remote="lineage" revision="c149e22f0750751d34e42380e43087a3340f2288" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="qcom,qssi"/>
   <project name="android_vendor_qcom_opensource_core-utils-vendor" path="vendor/qcom/opensource/core-utils-vendor" remote="lineage" revision="07341f090071b10b05ebe71a1f467c0e98d8e2ce" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="qcom,kailua-vendor"/>
   <project name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" path="hardware/qcom-caf/sm8450/data-ipa-cfg-mgr" remote="lineage" revision="c873e9983ed3c5c2525172273865193f6a892181" upstream="lineage-22.0-caf-sm8450" dest-branch="lineage-22.0-caf-sm8450" groups="qcom,waipio-vendor"/>
@@ -162,14 +162,14 @@
   <project name="android_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="lineage" revision="dfc2ec0112353afdb6db99db8bae7328b42e44f6" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="qcom,kailua-vendor"/>
   <project name="android_vendor_qcom_opensource_display" path="vendor/qcom/opensource/display" remote="lineage" revision="74a5c56b6229dbe518b43cf781e4c52e1a5ecb71" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="qcom"/>
   <project name="android_vendor_qcom_opensource_display-commonsys" path="vendor/qcom/opensource/commonsys/display" remote="lineage" revision="d2bfc3b38d6342106894f50da728b52ba35f4b25" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="qcom,qssi"/>
-  <project name="android_vendor_qcom_opensource_display-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/display" remote="lineage" revision="7bfe034e7fae9ab37b7aae661afb5e7afe1ee387" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="qcom,qssi"/>
+  <project name="android_vendor_qcom_opensource_display-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/display" remote="lineage" revision="f32767c2e037c82719f19c591ccc8842ff77db35" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="qcom,qssi"/>
   <project name="android_vendor_qcom_opensource_fm-commonsys" path="vendor/qcom/opensource/commonsys/fm" remote="lineage" revision="41adf5466cb29f7c959ac153204f65ac9743640c" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="qcom,qssi"/>
   <project name="android_vendor_qcom_opensource_healthd-ext" path="vendor/qcom/opensource/healthd-ext" remote="lineage" revision="2a2d8322a6dfd11ce370305f67ea0c772039cfe5" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="qcom,kailua-vendor"/>
-  <project name="android_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="lineage" revision="e3da77bcfa50d3f53f4e46d5e758df669b494dee" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="qcom,qssi"/>
+  <project name="android_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="lineage" revision="78890ac453b1dfaee8f2a3cdfff12ea5473fc616" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="qcom,qssi"/>
   <project name="android_vendor_qcom_opensource_libfmjni" path="vendor/qcom/opensource/libfmjni" remote="lineage" revision="055b0bed7a5f8822fc7c4658fff44c886177cb9b" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="qcom"/>
-  <project name="android_vendor_qcom_opensource_power" path="vendor/qcom/opensource/power" remote="lineage" revision="8527b23833f361dd13220dd49c1e0df80b4c27cf" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="qcom,kailua-vendor"/>
+  <project name="android_vendor_qcom_opensource_power" path="vendor/qcom/opensource/power" remote="lineage" revision="5a96e66c7a0a20bc85558c477fdfbd3b0d9069bd" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="qcom,kailua-vendor"/>
   <project name="android_vendor_qcom_opensource_thermal-engine" path="vendor/qcom/opensource/thermal-engine" remote="lineage" revision="0815f34094ebc952c8e1dd3619e384c7f9d1195b" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="qcom,kailua-vendor"/>
-  <project name="android_vendor_qcom_opensource_usb" path="vendor/qcom/opensource/usb" remote="lineage" revision="9ec96105fea5678707fea996039d3aa9763baa32" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="qcom,kailua-vendor"/>
+  <project name="android_vendor_qcom_opensource_usb" path="vendor/qcom/opensource/usb" remote="lineage" revision="c97e2df519b4b444f1e141aeb230929b5b4daad6" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="qcom,kailua-vendor"/>
   <project name="android_vendor_qcom_opensource_vibrator" path="vendor/qcom/opensource/vibrator" remote="lineage" revision="0ca0b72106b5a9e3b48f3ec0c746404eb602b033" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="qcom,kailua-vendor"/>
   <project name="android_vendor_qcom_opensource_wfd-commonsys" path="vendor/qcom/opensource/commonsys/wfd" remote="lineage" revision="d0887fc40fa6e9e12ccebf8dff1a2b3e24873ce5" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="qcom,kailua-video"/>
   <project name="device/generic/common" revision="2847404711f08932f4352646b38f3daa78aa5feb" upstream="refs/tags/android-15.0.0_r5" dest-branch="refs/tags/android-15.0.0_r5" groups="pdk"/>
@@ -1434,7 +1434,7 @@
     <linkfile src="target" dest="build/target"/>
     <linkfile src="tools" dest="build/tools"/>
   </project>
-  <project name="platform_build_soong" path="build/soong" remote="BlissRoms" revision="173ee41c48481284aa2ddb207c6c10e696415806" upstream="voyager" dest-branch="voyager">
+  <project name="platform_build_soong" path="build/soong" remote="BlissRoms" revision="f88111932a73092bf3a01ea5e0715c0d22cd1710" upstream="voyager" dest-branch="voyager">
     <linkfile src="root.bp" dest="Android.bp"/>
     <linkfile src="bootstrap.bash" dest="bootstrap.bash"/>
   </project>
@@ -1452,9 +1452,9 @@
   <project name="platform_external_tinycompress" path="external/tinycompress" remote="BlissRoms" revision="c47b09fc645bd9a0aec44412a5f372609b7c45e2" upstream="voyager" dest-branch="voyager" groups="pdk"/>
   <project name="platform_external_zstd" path="external/zstd" remote="BlissRoms" revision="87ccbb88bed46574fee567980532691abc69c2a8" upstream="voyager" dest-branch="voyager" groups="pdk"/>
   <project name="platform_frameworks_av" path="frameworks/av" remote="BlissRoms" revision="73da254c7b021b8444e614d71be5dbc707932485" upstream="voyager" dest-branch="voyager"/>
-  <project name="platform_frameworks_base" path="frameworks/base" remote="BlissRoms" revision="c1e5b2b5d263f2bb57d4b1128a616b5b906ca9f7" upstream="voyager" dest-branch="voyager"/>
+  <project name="platform_frameworks_base" path="frameworks/base" remote="BlissRoms" revision="0915b4459f7b7585f325a59f1c7f018dae5794ef" upstream="voyager" dest-branch="voyager"/>
   <project name="platform_frameworks_libs_systemui" path="frameworks/libs/systemui" remote="BlissRoms" revision="79ffd212c32c2709dd023e83e34e06331f77ca07" upstream="voyager" dest-branch="voyager"/>
-  <project name="platform_frameworks_native" path="frameworks/native" remote="BlissRoms" revision="8ce9ba4a5d87ddc5814e3d3bf710b4bbb1923bf1" upstream="voyager" dest-branch="voyager"/>
+  <project name="platform_frameworks_native" path="frameworks/native" remote="BlissRoms" revision="fafca1d257dc67cb8fb245e59cf26d02171641b9" upstream="voyager" dest-branch="voyager"/>
   <project name="platform_hardware_bliss_interfaces" path="hardware/bliss/interfaces" remote="BlissRoms" revision="f9ad9479850ff88330760defad87bb664d5a1dde" upstream="voyager" dest-branch="voyager"/>
   <project name="platform_hardware_interfaces" path="hardware/interfaces" remote="BlissRoms" revision="27f13c15c97a3162b417ef14b3cb2bf354861fc5" upstream="voyager" dest-branch="voyager"/>
   <project name="platform_hardware_libhardware" path="hardware/libhardware" remote="BlissRoms" revision="a2aa2e02e221f5c3650f357e668dde9f013d9abc" upstream="voyager" dest-branch="voyager"/>
@@ -1493,7 +1493,7 @@
   <project name="platform_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="BlissRoms" revision="54f2872b52cc9c6e8e331503b3db94fa28d790fb" upstream="voyager" dest-branch="voyager"/>
   <project name="platform_kernel_configs" path="kernel/configs" remote="BlissRoms" revision="9d3f1801a2e605a5aeb3533550b5ab97ca88f7e4" upstream="voyager" dest-branch="voyager"/>
   <project name="platform_manifest" path="manifest" remote="BlissRoms" revision="4c850845b0c82ade62d5c09f06a81e3ef234fd99" upstream="voyager" dest-branch="voyager"/>
-  <project name="platform_packages_apps_BlissSystemUI" path="packages/apps/BlissSystemUI" remote="BlissRoms" revision="42a1db5c7cafc7e350adb30da7d54aeae78bb4c9" upstream="voyager" dest-branch="voyager"/>
+  <project name="platform_packages_apps_BlissSystemUI" path="packages/apps/BlissSystemUI" remote="BlissRoms" revision="be756520355518a35fb0994d262e7dc4c8e8a1b1" upstream="voyager" dest-branch="voyager"/>
   <project name="platform_packages_apps_Blissify" path="packages/apps/Blissify" remote="BlissRoms" revision="ada0680abb2e182a61348eef9161b4e091c523eb" upstream="voyager" dest-branch="voyager"/>
   <project name="platform_packages_apps_Contacts" path="packages/apps/Contacts" remote="BlissRoms" revision="26447f5c710eef66dac7b4b9bc69420bf9e947b4" upstream="voyager" dest-branch="voyager"/>
   <project name="platform_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="BlissRoms" revision="1fb1f327745b528805800dbb6cf25f05a3009f24" upstream="voyager" dest-branch="voyager"/>
@@ -1525,11 +1525,11 @@
   <project name="platform_system_libhidl" path="system/libhidl" remote="BlissRoms" revision="5b09ace704837c581257ee2c5d991111b0f665a3" upstream="voyager" dest-branch="voyager"/>
   <project name="platform_system_logging" path="system/logging" remote="BlissRoms" revision="f2a33454e1f6ad05ad5d77517b46485be459456a" upstream="voyager" dest-branch="voyager"/>
   <project name="platform_system_netd" path="system/netd" remote="BlissRoms" revision="0e2a6f0824dc0a9a30ac0428a799efdde40be32c" upstream="voyager" dest-branch="voyager"/>
-  <project name="platform_system_security" path="system/security" remote="BlissRoms" revision="5a37034a3a97492cca75928193363c4f13bce5d3" upstream="voyager" dest-branch="voyager"/>
+  <project name="platform_system_security" path="system/security" remote="BlissRoms" revision="e22aff67f42757f46327a94bf86d66913fbfa5a3" upstream="voyager" dest-branch="voyager"/>
   <project name="platform_system_sepolicy" path="system/sepolicy" remote="BlissRoms" revision="bc0443e4862fc8c3114acabfc7824991049d9706" upstream="voyager" dest-branch="voyager"/>
   <project name="platform_system_tools_mkbootimg" path="system/tools/mkbootimg" remote="BlissRoms" revision="83619b675e5080ab3c011321958a4a182a7930b4" upstream="voyager" dest-branch="voyager"/>
   <project name="platform_system_update_engine" path="system/update_engine" remote="BlissRoms" revision="29a5c68bd76e8a4315403148d7e7c47b940ae2e4" upstream="voyager" dest-branch="voyager" groups="pdk"/>
-  <project name="platform_system_vold" path="system/vold" remote="BlissRoms" revision="0116ec12234f9d0f16928b163f91f3dfba4c45c5" upstream="voyager" dest-branch="voyager"/>
+  <project name="platform_system_vold" path="system/vold" remote="BlissRoms" revision="03eb23c56ba046b4fc48e1b2131698174999b14a" upstream="voyager" dest-branch="voyager"/>
   <project name="platform_vendor_bliss" path="vendor/bliss" remote="BlissRoms" revision="363d93b0087695a54f366bcd2657bbd5c866574c" upstream="voyager" dest-branch="voyager"/>
   <project name="platform_vendor_certification" path="vendor/certification" remote="BlissRoms-gitlab" revision="c914a8dc627922ccef2137634b5a62ae5d9212d2" upstream="voyager" dest-branch="voyager"/>
   <project name="platform_vendor_gms" path="vendor/gms" remote="BlissRoms-gitlab" revision="0fbff361d36fa26a24188b577a6db8447357e9f5" upstream="voyager" dest-branch="voyager"/>
