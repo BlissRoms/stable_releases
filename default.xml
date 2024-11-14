@@ -134,7 +134,7 @@
   <project name="android_prebuilts_tools-lineage" path="prebuilts/tools-lineage" remote="lineage" revision="10b65c9a4181390c2258a8c4f947e31f649b6756" upstream="lineage-22.0" dest-branch="lineage-22.0" clone-depth="1"/>
   <project name="android_system_libziparchive" path="system/libziparchive" remote="lineage" revision="3380a25a4d189cdffcaaf3bb5bd402f926f5b389" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="pdk"/>
   <project name="android_system_media" path="system/media" remote="lineage" revision="2545bded7a3205d4b282c27e7ff88d01894bdede" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="pdk"/>
-  <project name="android_tools_extract-utils" path="tools/extract-utils" remote="lineage" revision="34010ec70ffe9bf82cd6738d92c73100f29bd378" upstream="lineage-22.0" dest-branch="lineage-22.0"/>
+  <project name="android_tools_extract-utils" path="tools/extract-utils" remote="lineage" revision="e934265c1b0f839d90913357e4d0bb4dce58a66e" upstream="lineage-22.0" dest-branch="lineage-22.0"/>
   <project name="android_vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="lineage" revision="4dc9aecf34f71ebb479c60d212d11477f387c9d8" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="qcom,qssi"/>
   <project name="android_vendor_nxp_interfaces_opensource_nfc" path="vendor/nxp/opensource/interfaces/nfc" remote="lineage" revision="222d05de80e1aad205c0246d35c2df5af6a39261" upstream="lineage-19.1" dest-branch="lineage-19.1"/>
   <project name="android_vendor_nxp_nfc" path="vendor/nxp/nfc" remote="lineage" revision="7b3d30c22a56c8200d3a87a2a120497382103633" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="nxp"/>
@@ -1438,7 +1438,7 @@
     <linkfile src="root.bp" dest="Android.bp"/>
     <linkfile src="bootstrap.bash" dest="bootstrap.bash"/>
   </project>
-  <project name="platform_device_bliss_sepolicy" path="device/bliss/sepolicy" remote="BlissRoms" revision="caec5dd5b2904523f0a7c4e9f1e4f850d741e418" upstream="voyager" dest-branch="voyager"/>
+  <project name="platform_device_bliss_sepolicy" path="device/bliss/sepolicy" remote="BlissRoms" revision="3970b50d53f450a9ea3b9d68bfd4af970a375c32" upstream="voyager" dest-branch="voyager"/>
   <project name="platform_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="BlissRoms" revision="83a5e0ab490bacd34b945b7f7a61476d07d32937" upstream="voyager" dest-branch="voyager" groups="qcom,qssi"/>
   <project name="platform_device_qcom_sepolicy" path="device/qcom/sepolicy-legacy-um" remote="BlissRoms" revision="159720893403c4fad82f3c13f5cd32ec9fd04e1f" upstream="voyager-legacy-um" dest-branch="voyager-legacy-um" groups="qcom,sdm660"/>
   <project name="platform_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr/legacy-um" remote="BlissRoms" revision="0a2cd870fd43b500b91bce758f8aa54aebdc427c" upstream="voyager-legacy-um" dest-branch="voyager-legacy-um" groups="qcom,lahaina"/>
@@ -1459,7 +1459,7 @@
   <project name="platform_hardware_interfaces" path="hardware/interfaces" remote="BlissRoms" revision="27f13c15c97a3162b417ef14b3cb2bf354861fc5" upstream="voyager" dest-branch="voyager"/>
   <project name="platform_hardware_libhardware" path="hardware/libhardware" remote="BlissRoms" revision="a2aa2e02e221f5c3650f357e668dde9f013d9abc" upstream="voyager" dest-branch="voyager"/>
   <project name="platform_hardware_lineage_compat" path="hardware/lineage/compat" remote="BlissRoms" revision="3c8a627c7a91e5d7f9c3b98e7e05719c97aaae56" upstream="voyager" dest-branch="voyager"/>
-  <project name="platform_hardware_qcom-caf_common" path="hardware/qcom-caf/common" remote="BlissRoms" revision="1a9a1df61e49df2029bae06864cf6df5f39dc145" upstream="voyager" dest-branch="voyager" groups="qcom">
+  <project name="platform_hardware_qcom-caf_common" path="hardware/qcom-caf/common" remote="BlissRoms" revision="9c870a0d8041a313a4a4ee9bf8a72dceda2e51f1" upstream="voyager" dest-branch="voyager" groups="qcom">
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk"/>
     <linkfile src="os_pickup_sepolicy_vndr.mk" dest="device/qcom/sepolicy_vndr/SEPolicy.mk"/>
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/msm8953/Android.bp"/>
