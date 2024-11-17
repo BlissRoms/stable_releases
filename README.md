@@ -45,7 +45,7 @@ Installing Java 8
 
 **Repo initialization**
    
-    repo init -u https://github.com/BlissRoms/stable_releases.git -b refs/tags/v17.8.1-universe --git-lfs
+    repo init -u https://github.com/BlissRoms/stable_releases.git -b refs/tags/v17.8.2-universe --git-lfs
 
 **Sync repo**
 
