@@ -1492,7 +1492,6 @@
   </project>
   <project name="platform_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="BlissRoms" revision="54f2872b52cc9c6e8e331503b3db94fa28d790fb" upstream="voyager" dest-branch="voyager"/>
   <project name="platform_kernel_configs" path="kernel/configs" remote="BlissRoms" revision="9d3f1801a2e605a5aeb3533550b5ab97ca88f7e4" upstream="voyager" dest-branch="voyager"/>
-  <project name="platform_manifest" path="manifest" remote="BlissRoms" revision="4c850845b0c82ade62d5c09f06a81e3ef234fd99" upstream="voyager" dest-branch="voyager"/>
   <project name="platform_packages_apps_BlissSystemUI" path="packages/apps/BlissSystemUI" remote="BlissRoms" revision="be756520355518a35fb0994d262e7dc4c8e8a1b1" upstream="voyager" dest-branch="voyager"/>
   <project name="platform_packages_apps_Blissify" path="packages/apps/Blissify" remote="BlissRoms" revision="ada0680abb2e182a61348eef9161b4e091c523eb" upstream="voyager" dest-branch="voyager"/>
   <project name="platform_packages_apps_Contacts" path="packages/apps/Contacts" remote="BlissRoms" revision="26447f5c710eef66dac7b4b9bc69420bf9e947b4" upstream="voyager" dest-branch="voyager"/>
