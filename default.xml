@@ -25,15 +25,15 @@
   <project name="android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="lineage" revision="85290ef0527d2f4cf82fdc3ffc290c970ca57f6b" upstream="lineage-19.0" dest-branch="lineage-19.0"/>
   <project name="android_external_ant-wireless_hidl" path="external/ant-wireless/hidl" remote="lineage" revision="ce589dc08e4215b063bfac73eb7b9b52cf46d944" upstream="lineage-21.0" dest-branch="lineage-21.0" groups="qcom,qssi"/>
   <project name="android_external_bash" path="external/bash" remote="lineage" revision="e394fc5f5f254fd9b7a16306a84c19d9d9ae886f" upstream="lineage-21.0" dest-branch="lineage-21.0"/>
-  <project name="android_external_chromium-webview_patches" path="external/chromium-webview/patches" remote="lineage" revision="91081130b49e0547bbe5cef206227b218e2d5a3a" upstream="main" dest-branch="main" groups="pdk">
+  <project name="android_external_chromium-webview_patches" path="external/chromium-webview/patches" remote="lineage" revision="4c757e71d58374ec4a0c3cd4c251c7a226659068" upstream="main" dest-branch="main" groups="pdk">
     <linkfile src="Android.mk" dest="external/chromium-webview/Android.mk"/>
     <linkfile src="CleanSpec.mk" dest="external/chromium-webview/CleanSpec.mk"/>
     <linkfile src="README" dest="external/chromium-webview/README"/>
   </project>
-  <project name="android_external_chromium-webview_prebuilt_arm" path="external/chromium-webview/prebuilt/arm" remote="lineage" revision="3a32a73ef730643c25b41c924fc3611bcd226824" upstream="main" dest-branch="main" groups="pdk" clone-depth="1"/>
-  <project name="android_external_chromium-webview_prebuilt_arm64" path="external/chromium-webview/prebuilt/arm64" remote="lineage" revision="a264c13ab7ed1beaac1d39a098ecdbef10340811" upstream="main" dest-branch="main" groups="pdk" clone-depth="1"/>
-  <project name="android_external_chromium-webview_prebuilt_x86" path="external/chromium-webview/prebuilt/x86" remote="lineage" revision="66835db1c7f61420dc80199e41c3517d82c0635d" upstream="main" dest-branch="main" groups="pdk" clone-depth="1"/>
-  <project name="android_external_chromium-webview_prebuilt_x86_64" path="external/chromium-webview/prebuilt/x86_64" remote="lineage" revision="b8bf2979b57799074116963ebaa82c26301c045f" upstream="main" dest-branch="main" groups="pdk" clone-depth="1"/>
+  <project name="android_external_chromium-webview_prebuilt_arm" path="external/chromium-webview/prebuilt/arm" remote="lineage" revision="74fa86edbc11616da64716ed16bdd7bb612ba65d" upstream="main" dest-branch="main" groups="pdk" clone-depth="1"/>
+  <project name="android_external_chromium-webview_prebuilt_arm64" path="external/chromium-webview/prebuilt/arm64" remote="lineage" revision="938630192623572fc5312dbc4b5b6bbf45be0a4e" upstream="main" dest-branch="main" groups="pdk" clone-depth="1"/>
+  <project name="android_external_chromium-webview_prebuilt_x86" path="external/chromium-webview/prebuilt/x86" remote="lineage" revision="3c87302c5612c8b93ca70fbea64b83c52c733af4" upstream="main" dest-branch="main" groups="pdk" clone-depth="1"/>
+  <project name="android_external_chromium-webview_prebuilt_x86_64" path="external/chromium-webview/prebuilt/x86_64" remote="lineage" revision="9853f9c38fe9385d8f78d9beaa250be9cdbeec40" upstream="main" dest-branch="main" groups="pdk" clone-depth="1"/>
   <project name="android_external_e2fsprogs" path="external/e2fsprogs" remote="lineage" revision="d37e9f0ddce5c220aed237c0d97d732c773861cc" upstream="lineage-21.0" dest-branch="lineage-21.0" groups="pdk"/>
   <project name="android_external_htop" path="external/htop" remote="lineage" revision="44900884f72c71ec315660b6e42575eac35a2362" upstream="lineage-21.0" dest-branch="lineage-21.0"/>
   <project name="android_external_json-c" path="external/json-c" remote="lineage" revision="4ca1c6405ca44253ba029946520b81158a68594b" upstream="lineage-21.0" dest-branch="lineage-21.0"/>
@@ -108,11 +108,11 @@
   <project name="android_hardware_qcom_thermal" path="hardware/qcom-caf/thermal" remote="lineage" revision="9395823fba90d9b57a6f7bbdb9ce542e2d7d69e7" upstream="lineage-21.0" dest-branch="lineage-21.0" groups="qcom,kailua-vendor"/>
   <project name="android_hardware_qcom_vr" path="hardware/qcom-caf/vr" remote="lineage" revision="d7c051add89a45090250c8f6c16c5c86f82be6b8" upstream="lineage-21.0" dest-branch="lineage-21.0" groups="qcom,legacy-qcom"/>
   <project name="android_hardware_qcom_wlan" path="hardware/qcom-caf/wlan" remote="lineage" revision="e5d5b06280de3d3414b4b911a7e1fc00796c434c" upstream="lineage-21.0-caf" dest-branch="lineage-21.0-caf" groups="qcom,kailua-vendor"/>
-  <project name="android_packages_apps_Aperture" path="packages/apps/Aperture" remote="lineage" revision="0941b202cf853c922c13c21183864fb8cdf18cd5" upstream="lineage-21.0" dest-branch="lineage-21.0" groups="pdk-fs"/>
-  <project name="android_packages_apps_Etar" path="packages/apps/Etar" remote="lineage" revision="7e71d23ab1e6cbb5364cc036660f4090ec79335b" upstream="lineage-21.0" dest-branch="lineage-21.0"/>
-  <project name="android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="lineage" revision="038c2d22599ec990722c84e4c65dd67f5050a245" upstream="lineage-21.0" dest-branch="lineage-21.0"/>
+  <project name="android_packages_apps_Aperture" path="packages/apps/Aperture" remote="lineage" revision="3b85af0793344b78a8d949f3b2efae28651a06d4" upstream="lineage-21.0" dest-branch="lineage-21.0" groups="pdk-fs"/>
+  <project name="android_packages_apps_Etar" path="packages/apps/Etar" remote="lineage" revision="384dade4cfb59cef71976f2fe1804268a4a63158" upstream="lineage-21.0" dest-branch="lineage-21.0"/>
+  <project name="android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="lineage" revision="9b42b7f7f81fa80ee912b9335d41c1a834db0860" upstream="lineage-21.0" dest-branch="lineage-21.0"/>
   <project name="android_packages_apps_Glimpse" path="packages/apps/Glimpse" remote="lineage" revision="ff1d891598941ad2036139e71967748735684291" upstream="lineage-21.0" dest-branch="lineage-21.0"/>
-  <project name="android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="lineage" revision="863052dc753099acc34c25a626f4f3d5bef99fb9" upstream="lineage-21.0" dest-branch="lineage-21.0"/>
+  <project name="android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="lineage" revision="c3733f74e633444118a6eb36b746915695ab17c5" upstream="lineage-21.0" dest-branch="lineage-21.0"/>
   <project name="android_prebuilts_extract-tools" path="prebuilts/extract-tools" remote="lineage" revision="b126753e80fcb5d886a0b4fe91dedb8593176de3" upstream="lineage-21.0" dest-branch="lineage-21.0" clone-depth="1"/>
   <project name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="lineage" revision="5e030eafe024784a73cdf47e6936ac0dbfc763dc" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="pdk,linux,arm" clone-depth="1"/>
   <project name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="lineage" revision="111258a10e017f067b27e6cfcea7619d753f3309" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="pdk,linux,arm" clone-depth="1"/>
@@ -1107,7 +1107,6 @@
   <project name="platform/packages/apps/CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" revision="20ee93e82da0fafc7eaf789fb9da44423c982df5" upstream="refs/tags/android-14.0.0_r67" dest-branch="refs/tags/android-14.0.0_r67" groups="pdk-cw-fs,pdk-fs"/>
   <project name="platform/packages/apps/CertInstaller" path="packages/apps/CertInstaller" revision="ac293f1fa79b3a02cb78a1dd7eaf9942374603d1" upstream="refs/tags/android-14.0.0_r67" dest-branch="refs/tags/android-14.0.0_r67" groups="pdk-cw-fs,pdk-fs"/>
   <project name="platform/packages/apps/DevCamera" path="packages/apps/DevCamera" revision="cbe84300ca811e431f26be04938b64ac234a1aa8" upstream="refs/tags/android-14.0.0_r67" dest-branch="refs/tags/android-14.0.0_r67" groups="pdk"/>
-  <project name="platform/packages/apps/DocumentsUI" path="packages/apps/DocumentsUI" revision="d062b42e9164938ea34b6200dbf69858272b1fbd" upstream="refs/tags/android-14.0.0_r67" dest-branch="refs/tags/android-14.0.0_r67" groups="pdk-cw-fs,pdk-fs"/>
   <project name="platform/packages/apps/EmergencyInfo" path="packages/apps/EmergencyInfo" revision="fe623657378a2374324f2fcac7a8222b4dda7eb7" upstream="refs/tags/android-14.0.0_r67" dest-branch="refs/tags/android-14.0.0_r67" groups="pdk-fs"/>
   <project name="platform/packages/apps/Gallery" path="packages/apps/Gallery" revision="4fb3686148d916128dabd7528621b9e0d08a5ea6" upstream="refs/tags/android-14.0.0_r67" dest-branch="refs/tags/android-14.0.0_r67" groups="pdk-fs"/>
   <project name="platform/packages/apps/HTMLViewer" path="packages/apps/HTMLViewer" revision="31b1011ea5403d3b29e622dbd0f77fc607ed6b06" upstream="refs/tags/android-14.0.0_r67" dest-branch="refs/tags/android-14.0.0_r67" groups="pdk-fs"/>
@@ -1163,7 +1162,6 @@
   <project name="platform/packages/modules/NetworkStack" path="packages/modules/NetworkStack" revision="a415d3808f8b6ab9c15b8d873eb88e96f4a506a8" upstream="refs/tags/android-14.0.0_r67" dest-branch="refs/tags/android-14.0.0_r67" groups="pdk-cw-fs,pdk-fs"/>
   <project name="platform/packages/modules/NeuralNetworks" path="packages/modules/NeuralNetworks" revision="4672170986e5cd37ef90adc990288cc09b3047b2" upstream="refs/tags/android-14.0.0_r67" dest-branch="refs/tags/android-14.0.0_r67" groups="pdk-cw-fs,pdk-fs"/>
   <project name="platform/packages/modules/OnDevicePersonalization" path="packages/modules/OnDevicePersonalization" revision="21ed7b685584f258aa3c39da1efdb7ab43272ba1" upstream="refs/tags/android-14.0.0_r67" dest-branch="refs/tags/android-14.0.0_r67" groups="pdk-cw-fs,pdk-fs"/>
-  <project name="platform/packages/modules/Permission" path="packages/modules/Permission" revision="2a615261c94928da07f5c1b3f2fdf4572ba9a098" upstream="refs/tags/android-14.0.0_r67" dest-branch="refs/tags/android-14.0.0_r67" groups="pdk-cw-fs,pdk-fs"/>
   <project name="platform/packages/modules/Profiling" path="packages/modules/Profiling" revision="92609c87ae155dc21b173cd335b42eb40017e13c" upstream="refs/tags/android-14.0.0_r67" dest-branch="refs/tags/android-14.0.0_r67" groups="pdk"/>
   <project name="platform/packages/modules/RemoteKeyProvisioning" path="packages/modules/RemoteKeyProvisioning" revision="379030fe72cce0ced58a51ee6f528556772b576f" upstream="refs/tags/android-14.0.0_r67" dest-branch="refs/tags/android-14.0.0_r67" groups="pdk-cw-fs,pdk-fs"/>
   <project name="platform/packages/modules/RuntimeI18n" path="packages/modules/RuntimeI18n" revision="41d2bb4904b435d2a0cc3779def166b9e6d6b33c" upstream="refs/tags/android-14.0.0_r67" dest-branch="refs/tags/android-14.0.0_r67" groups="pdk-cw-fs,pdk-fs"/>
@@ -1375,8 +1373,8 @@
     <linkfile src="target" dest="build/target"/>
     <linkfile src="tools" dest="build/tools"/>
   </project>
-  <project name="platform_build_release" path="build/release" remote="BlissRoms" revision="506bb2fca609f1f98940441b263111f852367d02" upstream="universe" dest-branch="universe" groups="pdk,tradefed"/>
-  <project name="platform_build_soong" path="build/soong" remote="BlissRoms" revision="e76bbf827b31e69ba71fa33b317b5264c294d6e2" upstream="universe" dest-branch="universe">
+  <project name="platform_build_release" path="build/release" remote="BlissRoms" revision="d8d21d08ddc2e53100a1a9367754b9523c8631fd" upstream="universe" dest-branch="universe" groups="pdk,tradefed"/>
+  <project name="platform_build_soong" path="build/soong" remote="BlissRoms" revision="3453ba2d6e02e49f7176b18b8f32685319a725ad" upstream="universe" dest-branch="universe">
     <linkfile src="root.bp" dest="Android.bp"/>
     <linkfile src="bootstrap.bash" dest="bootstrap.bash"/>
   </project>
@@ -1388,12 +1386,12 @@
   <project name="platform_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr/sm8550" remote="BlissRoms" revision="f249a97e106933724a02e76321d1d8be2ffd3364" upstream="universe-caf-sm8550" dest-branch="universe-caf-sm8550" groups="qcom,kailua-vendor"/>
   <project name="platform_external_gptfdisk" path="external/gptfdisk" remote="BlissRoms" revision="a12a062faa7d1e6404901bcd4ecc08905f4f9641" upstream="universe" dest-branch="universe" groups="pdk"/>
   <project name="platform_external_mksh" path="external/mksh" remote="BlissRoms" revision="c2e8a456f6b58196c33669e8eb9a94ef93abe988" upstream="universe" dest-branch="universe" groups="pdk"/>
-  <project name="platform_external_skia" path="external/skia" remote="BlissRoms" revision="9a19c2a29e14f30ff2743d7b546e06ba5616915c" upstream="universe" dest-branch="universe" groups="pdk,qcom_msm8x26"/>
+  <project name="platform_external_skia" path="external/skia" remote="BlissRoms" revision="380ab6cf0022b4a8deef407213d25946022e887c" upstream="universe" dest-branch="universe" groups="pdk,qcom_msm8x26"/>
   <project name="platform_external_tigervnc" path="external/tigervnc" remote="BlissRoms" revision="59667601f8d50e2ee2bcb91f1752e0925d42f1aa" upstream="universe" dest-branch="universe" groups="pdk"/>
   <project name="platform_external_tinycompress" path="external/tinycompress" remote="BlissRoms" revision="d33d86facde4604eda148bc11239a24eff3a4fc3" upstream="universe" dest-branch="universe" groups="pdk"/>
   <project name="platform_external_zstd" path="external/zstd" remote="BlissRoms" revision="5b53e20dd36c8db39eefb45e0dd07211eced80dc" upstream="universe" dest-branch="universe" groups="pdk"/>
   <project name="platform_frameworks_av" path="frameworks/av" remote="BlissRoms" revision="d7746777e532271029d8cd9479d04d78693ba382" upstream="universe" dest-branch="universe"/>
-  <project name="platform_frameworks_base" path="frameworks/base" remote="BlissRoms" revision="a7ecab0538af9f70f11465038c3bd825fbb8bf14" upstream="universe" dest-branch="universe"/>
+  <project name="platform_frameworks_base" path="frameworks/base" remote="BlissRoms" revision="eeef725bbb82781f01908161177f3f296a95ccf9" upstream="universe" dest-branch="universe"/>
   <project name="platform_frameworks_libs_systemui" path="frameworks/libs/systemui" remote="BlissRoms" revision="a1303989b1589102676053657f8e96386263f38a" upstream="universe" dest-branch="universe"/>
   <project name="platform_frameworks_native" path="frameworks/native" remote="BlissRoms" revision="054606882d377f94ce1a56a3746b33fe833ed955" upstream="universe" dest-branch="universe"/>
   <project name="platform_frameworks_opt_colorpicker" path="frameworks/opt/colorpicker" remote="BlissRoms" revision="9e133125e383f7363ed17692825b0e917b5c20f9" upstream="universe" dest-branch="universe"/>
@@ -1443,6 +1441,7 @@
   <project name="platform_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="BlissRoms" revision="1fb1f327745b528805800dbb6cf25f05a3009f24" upstream="universe" dest-branch="universe"/>
   <project name="platform_packages_apps_DesktopMode" path="packages/apps/DesktopMode" remote="BlissRoms" revision="b2a441967649072085c03375aedff40ca22a4700" upstream="universe" dest-branch="universe"/>
   <project name="platform_packages_apps_Dialer" path="packages/apps/Dialer" remote="BlissRoms" revision="808bfd30c57c6bbd683f7f4eadb6115002b25540" upstream="universe" dest-branch="universe"/>
+  <project name="platform_packages_apps_DocumentsUI" path="packages/apps/DocumentsUI" remote="BlissRoms" revision="8b6162091e32f5b2981b3fc4f783aa32deedb4c7" upstream="universe" dest-branch="universe" groups="pdk-cw-fs,pdk-fs"/>
   <project name="platform_packages_apps_GameSpace" path="packages/apps/GameSpace" remote="BlissRoms" revision="fa0675e1edaab2e8e7231c0ff6bd8bc087f51d80" upstream="universe" dest-branch="universe"/>
   <project name="platform_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="BlissRoms" revision="aa40eebaaf98c9b3807aef93fe17d2577f91d2d2" upstream="universe" dest-branch="universe"/>
   <project name="platform_packages_apps_Messaging" path="packages/apps/Messaging" remote="BlissRoms" revision="1517ab0bb8f8f266bae668c910263af25cfaecc4" upstream="universe" dest-branch="universe"/>
@@ -1452,9 +1451,10 @@
   <project name="platform_packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="BlissRoms" revision="58b6fc821044ac641816f7bdd82ddd64c7ebac87" upstream="universe" dest-branch="universe"/>
   <project name="platform_packages_apps_paranoidsense" path="packages/apps/ParanoidSense" remote="BlissRoms-gitlab" revision="469e14e26728f285827092c6f617eeb688b3e19f" upstream="universe" dest-branch="universe"/>
   <project name="platform_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="BlissRoms" revision="1e85627651d767bd32dac82608e9b8be68d718d9" upstream="universe" dest-branch="universe"/>
-  <project name="platform_packages_modules_Bluetooth" path="packages/modules/Bluetooth" remote="BlissRoms" revision="e506b53f681fda433b77ccf43a8e349c4c1b7fbb" upstream="universe" dest-branch="universe" groups="pdk"/>
+  <project name="platform_packages_modules_Bluetooth" path="packages/modules/Bluetooth" remote="BlissRoms" revision="9df5e630bbb1632a56f7fd8bc1ccdaaae6f61283" upstream="universe" dest-branch="universe" groups="pdk"/>
   <project name="platform_packages_modules_Connectivity" path="packages/modules/Connectivity" remote="BlissRoms" revision="9668e5c17260f62fb3c9aa101f467e29d85da654" upstream="universe" dest-branch="universe"/>
   <project name="platform_packages_modules_IntentResolver" path="packages/modules/IntentResolver" remote="BlissRoms" revision="7d31a35962b8801ea00a97947b2e200e1b896d30" upstream="universe" dest-branch="universe" groups="pdk,sysui-studio"/>
+  <project name="platform_packages_modules_Permission" path="packages/modules/Permission" remote="BlissRoms" revision="4117fbcc4f0686e0a8b94efc1a7d4049df474376" upstream="universe" dest-branch="universe" groups="pdk-cw-fs,pdk-fs"/>
   <project name="platform_packages_modules_Wifi" path="packages/modules/Wifi" remote="BlissRoms" revision="1b12384a7947529e4200af5eeffdafb238f55602" upstream="universe" dest-branch="universe" groups="pdk-cw-fs,pdk-fs"/>
   <project name="platform_packages_modules_adb" path="packages/modules/adb" remote="BlissRoms" revision="9c67d4bbf2d0f96fe8a1d9287d415dbf7197ff33" upstream="universe" dest-branch="universe"/>
   <project name="platform_packages_modules_common" path="packages/modules/common" remote="BlissRoms" revision="87b3ad796d81172d6aee50b2b4cf3ea91c4e1dad" upstream="universe" dest-branch="universe" groups="pdk-cw-fs,pdk-fs"/>
@@ -1478,8 +1478,8 @@
   <project name="platform_system_tools_mkbootimg" path="system/tools/mkbootimg" remote="BlissRoms" revision="bfeea202b0fbc9fcac8545dbf36f4763bf3e7790" upstream="universe" dest-branch="universe"/>
   <project name="platform_system_update_engine" path="system/update_engine" remote="BlissRoms" revision="15c3056b82952afd959149445b5e63c2b0b9703d" upstream="universe" dest-branch="universe" groups="pdk"/>
   <project name="platform_system_vold" path="system/vold" remote="BlissRoms" revision="09843d8bf923d56ca4a7240d81c0f90dcdc16d1c" upstream="universe" dest-branch="universe"/>
-  <project name="platform_vendor_bliss" path="vendor/bliss" remote="BlissRoms" revision="53c9b506e9b1e07a96701b44290af253e72d2883" upstream="universe" dest-branch="universe"/>
-  <project name="platform_vendor_certification" path="vendor/certification" remote="BlissRoms-gitlab" revision="f721988a696ecdd640750430fb65939f640bf357" upstream="universe" dest-branch="universe"/>
+  <project name="platform_vendor_bliss" path="vendor/bliss" remote="BlissRoms" revision="c0a99017a20327bdf065a838332c4e4e543bda63" upstream="universe" dest-branch="universe"/>
+  <project name="platform_vendor_certification" path="vendor/certification" remote="BlissRoms-gitlab" revision="57504cad6748d7ff70dd72e26d2699f05287e1e0" upstream="universe" dest-branch="universe"/>
   <project name="platform_vendor_gapps" path="vendor/gapps" remote="BlissRoms-gitlab" revision="e133959a7426c121ec46b16bd5a92203a290e3a0" upstream="universe" dest-branch="universe" clone-depth="1"/>
   <project name="platform_vendor_nxp_opensource_packages_apps_Nfc" path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" remote="BlissRoms" revision="90ea50a713d70325e0df736bcb8e1f67576c5c43" upstream="universe" dest-branch="universe"/>
   <project name="platform_vendor_overlays" path="vendor/overlays" remote="BlissRoms" revision="341afe9e5efbdcc164e3681fc102e62e3a6a624c" upstream="universe" dest-branch="universe"/>
