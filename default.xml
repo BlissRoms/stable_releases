@@ -1436,7 +1436,6 @@
   <project name="platform_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="BlissRoms" revision="c78792798fc45ff77f1f356f8f85a6ae80b94645" upstream="universe" dest-branch="universe"/>
   <project name="platform_kernel_configs" path="kernel/configs" remote="BlissRoms" revision="5da1af4336121276bd65437e329c95c770923a35" upstream="universe" dest-branch="universe"/>
   <project name="platform_libcore" path="libcore" remote="BlissRoms" revision="568fe95015be8ada156845d1bb5eff6b39f8ed11" upstream="universe" dest-branch="universe" groups="pdk"/>
-  <project name="platform_manifest" path="manifest" remote="BlissRoms" revision="cd4cad512bd89f92b81c1a1500017541643f41a7" upstream="universe" dest-branch="universe"/>
   <project name="platform_packages_apps_BlissSystemUI" path="packages/apps/BlissSystemUI" remote="BlissRoms" revision="cbc031c7cb60795abc4b19ece3475518c71e3370" upstream="universe" dest-branch="universe"/>
   <project name="platform_packages_apps_BlissUpdater" path="packages/apps/BlissUpdater" remote="BlissRoms" revision="151e569057d3e698c649c581a951a469614f6a89" upstream="universe" dest-branch="universe"/>
   <project name="platform_packages_apps_Blissify" path="packages/apps/Blissify" remote="BlissRoms" revision="c41b605e511ada59ae704cc9ff36fbb6f294ec55" upstream="universe" dest-branch="universe"/>
