@@ -29,15 +29,15 @@
   <project name="android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="lineage" revision="85290ef0527d2f4cf82fdc3ffc290c970ca57f6b" upstream="lineage-19.0" dest-branch="lineage-19.0"/>
   <project name="android_external_ant-wireless_hidl" path="external/ant-wireless/hidl" remote="lineage" revision="ce589dc08e4215b063bfac73eb7b9b52cf46d944" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="qcom,qssi"/>
   <project name="android_external_bash" path="external/bash" remote="lineage" revision="e394fc5f5f254fd9b7a16306a84c19d9d9ae886f" upstream="lineage-22.0" dest-branch="lineage-22.0"/>
-  <project name="android_external_chromium-webview_patches" path="external/chromium-webview/patches" remote="lineage" revision="91081130b49e0547bbe5cef206227b218e2d5a3a" upstream="main" dest-branch="main" groups="pdk">
+  <project name="android_external_chromium-webview_patches" path="external/chromium-webview/patches" remote="lineage" revision="4c757e71d58374ec4a0c3cd4c251c7a226659068" upstream="main" dest-branch="main" groups="pdk">
     <linkfile src="Android.mk" dest="external/chromium-webview/Android.mk"/>
     <linkfile src="CleanSpec.mk" dest="external/chromium-webview/CleanSpec.mk"/>
     <linkfile src="README" dest="external/chromium-webview/README"/>
   </project>
-  <project name="android_external_chromium-webview_prebuilt_arm" path="external/chromium-webview/prebuilt/arm" remote="lineage" revision="3a32a73ef730643c25b41c924fc3611bcd226824" upstream="main" dest-branch="main" groups="pdk" clone-depth="1"/>
-  <project name="android_external_chromium-webview_prebuilt_arm64" path="external/chromium-webview/prebuilt/arm64" remote="lineage" revision="a264c13ab7ed1beaac1d39a098ecdbef10340811" upstream="main" dest-branch="main" groups="pdk" clone-depth="1"/>
-  <project name="android_external_chromium-webview_prebuilt_x86" path="external/chromium-webview/prebuilt/x86" remote="lineage" revision="66835db1c7f61420dc80199e41c3517d82c0635d" upstream="main" dest-branch="main" groups="pdk" clone-depth="1"/>
-  <project name="android_external_chromium-webview_prebuilt_x86_64" path="external/chromium-webview/prebuilt/x86_64" remote="lineage" revision="b8bf2979b57799074116963ebaa82c26301c045f" upstream="main" dest-branch="main" groups="pdk" clone-depth="1"/>
+  <project name="android_external_chromium-webview_prebuilt_arm" path="external/chromium-webview/prebuilt/arm" remote="lineage" revision="74fa86edbc11616da64716ed16bdd7bb612ba65d" upstream="main" dest-branch="main" groups="pdk" clone-depth="1"/>
+  <project name="android_external_chromium-webview_prebuilt_arm64" path="external/chromium-webview/prebuilt/arm64" remote="lineage" revision="938630192623572fc5312dbc4b5b6bbf45be0a4e" upstream="main" dest-branch="main" groups="pdk" clone-depth="1"/>
+  <project name="android_external_chromium-webview_prebuilt_x86" path="external/chromium-webview/prebuilt/x86" remote="lineage" revision="3c87302c5612c8b93ca70fbea64b83c52c733af4" upstream="main" dest-branch="main" groups="pdk" clone-depth="1"/>
+  <project name="android_external_chromium-webview_prebuilt_x86_64" path="external/chromium-webview/prebuilt/x86_64" remote="lineage" revision="9853f9c38fe9385d8f78d9beaa250be9cdbeec40" upstream="main" dest-branch="main" groups="pdk" clone-depth="1"/>
   <project name="android_external_cronet" path="external/cronet" remote="lineage" revision="b696dc0cee8f487a3d8301b2f8b4655c163fa197" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="pdk"/>
   <project name="android_external_dtc" path="external/dtc" remote="lineage" revision="911d6e5dd39ae7873a1ad96c8a518da31d652718" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="pdk"/>
   <project name="android_external_json-c" path="external/json-c" remote="lineage" revision="47c830a245c7592c1836b3c9fe50915c089d4191" upstream="lineage-22.0" dest-branch="lineage-22.0"/>
@@ -46,6 +46,7 @@
   <project name="android_external_kotlinx.serialization" path="external/kotlinx.serialization" remote="lineage" revision="8f4c5d9fb94bee28478091de6f55a27e55fe7661" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="pdk"/>
   <project name="android_external_libncurses" path="external/libncurses" remote="lineage" revision="0ad6497d4121ab2dc2fa8bf61f74cdfc897d58b5" upstream="lineage-22.0" dest-branch="lineage-22.0"/>
   <project name="android_external_nano" path="external/nano" remote="lineage" revision="30d82ca6c13e675e9dea93bccd931daf1c8e9509" upstream="lineage-22.0" dest-branch="lineage-22.0"/>
+  <project name="android_external_ntfs-3g" path="external/ntfs-3g" remote="lineage" revision="7471d6403640f1cd0878cc2c87279571a497bcb7" upstream="lineage-22.0" dest-branch="lineage-22.0"/>
   <project name="android_external_openssh" path="external/openssh" remote="lineage" revision="60ca88651d39f699932f63d41409facc18c5ad19" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="pdk"/>
   <project name="android_external_rsync" path="external/rsync" remote="lineage" revision="cdb7e988d31d769ecfc20633467952528e0e5707" upstream="lineage-22.0" dest-branch="lineage-22.0"/>
   <project name="android_external_unrar" path="external/unrar" remote="lineage" revision="33790f0663cc9e3323f0cd21cd8873301ed1cd79" upstream="lineage-22.0" dest-branch="lineage-22.0"/>
@@ -56,6 +57,7 @@
   <project name="android_hardware_google_graphics_common" path="hardware/google/graphics/common" remote="lineage" revision="dbdd70029cc7e8b16ab12bde9f9895423fb7a824" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="pdk-lassen,pdk-gs-arm"/>
   <project name="android_hardware_google_pixel" path="hardware/google/pixel" remote="lineage" revision="cf90c5747a01e9dddc2530a7213ce602973ac5e8" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="generic_fs,pixel"/>
   <project name="android_hardware_google_pixel-sepolicy" path="hardware/google/pixel-sepolicy" remote="lineage" revision="a9148a792ac0c3913aca71a9dddfaa2986969904" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="generic_fs,pixel"/>
+  <project name="android_hardware_lineage_compat" path="hardware/lineage/compat" remote="lineage" revision="21deeda2d6e705b3e228babbff8797a518972f3c" upstream="lineage-22.0" dest-branch="lineage-22.0"/>
   <project name="android_hardware_lineage_livedisplay" path="hardware/lineage/livedisplay" remote="lineage" revision="05bbbfd180bf8c02b6fb81a7e4b8057868f6e4ba" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="qcom,pdk-qcom"/>
   <project name="android_hardware_qcom_audio" path="hardware/qcom/audio" remote="lineage" revision="39769a57a8df6d3a88a9a2916df633be0ee94f79" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="qcom,qcom_audio,pdk-qcom"/>
   <project name="android_hardware_qcom_audio" path="hardware/qcom-caf/msm8953/audio" remote="lineage" revision="84e1ed4fe251ff258caa202b31243486df3e9d65" upstream="lineage-22.0-caf-msm8953" dest-branch="lineage-22.0-caf-msm8953" groups="qcom,msm8953"/>
@@ -78,8 +80,8 @@
   <project name="android_hardware_qcom_display" path="hardware/qcom-caf/msm8998/display" remote="lineage" revision="d60aec40a4aaa4a6d5367c22750341bffa882bcf" upstream="lineage-22.0-caf-msm8998" dest-branch="lineage-22.0-caf-msm8998" groups="qcom,legacy-qcom"/>
   <project name="android_hardware_qcom_display" path="hardware/qcom-caf/sdm660/display" remote="lineage" revision="2b63444088349701914fc052328ff9895c299c31" upstream="lineage-22.0-caf-sdm660" dest-branch="lineage-22.0-caf-sdm660" groups="qcom"/>
   <project name="android_hardware_qcom_display" path="hardware/qcom-caf/sdm845/display" remote="lineage" revision="80aa9e092a062f25a5519a9488fc475213a22eab" upstream="lineage-22.0-caf-sdm845" dest-branch="lineage-22.0-caf-sdm845" groups="qcom"/>
-  <project name="android_hardware_qcom_display" path="hardware/qcom-caf/sm8150/display" remote="lineage" revision="2f17473761d0fe42ad053de64958b584364a58e9" upstream="lineage-22.0-caf-sm8150" dest-branch="lineage-22.0-caf-sm8150" groups="qcom"/>
-  <project name="android_hardware_qcom_display" path="hardware/qcom-caf/sm8250/display" remote="lineage" revision="58c486b7a36f8af940248d1317ad348e04478d51" upstream="lineage-22.0-caf-sm8250" dest-branch="lineage-22.0-caf-sm8250" groups="qcom"/>
+  <project name="android_hardware_qcom_display" path="hardware/qcom-caf/sm8150/display" remote="lineage" revision="5d8154b981eb5e36faaf415d09f134301b9925db" upstream="lineage-22.0-caf-sm8150" dest-branch="lineage-22.0-caf-sm8150" groups="qcom"/>
+  <project name="android_hardware_qcom_display" path="hardware/qcom-caf/sm8250/display" remote="lineage" revision="5f3dd0bf2efed32d4a8d8e079e570871cc1f6727" upstream="lineage-22.0-caf-sm8250" dest-branch="lineage-22.0-caf-sm8250" groups="qcom"/>
   <project name="android_hardware_qcom_display" path="hardware/qcom-caf/sm8350/display" remote="lineage" revision="77a62221bf4ba24f820a1263ae57d97c026b6df1" upstream="lineage-22.0-caf-sm8350" dest-branch="lineage-22.0-caf-sm8350" groups="qcom"/>
   <project name="android_hardware_qcom_display" path="hardware/qcom-caf/sm8450/display" remote="lineage" revision="f3207cf9f96c6e2f160c2bf1c5a085a8e05749f6" upstream="lineage-22.0-caf-sm8450" dest-branch="lineage-22.0-caf-sm8450" groups="qcom"/>
   <project name="android_hardware_qcom_display" path="hardware/qcom-caf/sm8550/display" remote="lineage" revision="f88fee79170e224fd229691aaffc2ccc0fa78199" upstream="lineage-22.0-caf-sm8550" dest-branch="lineage-22.0-caf-sm8550" groups="qcom"/>
@@ -121,12 +123,12 @@
   <project name="android_hardware_ril" path="hardware/ril" remote="lineage" revision="a5c16924b680cf9b1754428f028037eace52193f" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="pdk"/>
   <project name="android_hardware_samsung_nfc" path="hardware/samsung/nfc" remote="lineage" revision="114f93d09c5f88275698663d9322672d08a03752" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="pdk"/>
   <project name="android_hardware_st_nfc" path="hardware/st/nfc" remote="lineage" revision="03b0ef661c83041ca95fb1aff049c9f05670baea" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="pdk"/>
-  <project name="android_packages_apps_Aperture" path="packages/apps/Aperture" remote="lineage" revision="950a507cc611e8bdcd1bfcaece0204edfbb5f284" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="pdk-fs"/>
-  <project name="android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="lineage" revision="be7524a28a8adbd018b34fb9a4efd22a8a8e2037" upstream="lineage-22.0" dest-branch="lineage-22.0"/>
-  <project name="android_packages_apps_Glimpse" path="packages/apps/Glimpse" remote="lineage" revision="42ab488da87e40a22dc9f8f6d76dcf6d2f74478b" upstream="lineage-22.0" dest-branch="lineage-22.0"/>
+  <project name="android_packages_apps_Aperture" path="packages/apps/Aperture" remote="lineage" revision="84f17b01fbc90aef8a5c9d2ffd468d66e9cb5cbe" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="pdk-fs"/>
+  <project name="android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="lineage" revision="e7f3c17a09ad758db99fd0bd0db7a85784964f2a" upstream="lineage-22.0" dest-branch="lineage-22.0"/>
+  <project name="android_packages_apps_Glimpse" path="packages/apps/Glimpse" remote="lineage" revision="7c35a958811bbf8fe49116fcc4a414ee05ac098e" upstream="lineage-22.0" dest-branch="lineage-22.0"/>
   <project name="android_packages_modules_Permission" path="packages/modules/Permission" remote="lineage" revision="f76af0f4b842c168c45f6285cb4f963b1f836d91" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="pdk-cw-fs,pdk-fs"/>
   <project name="android_packages_modules_Virtualization" path="packages/modules/Virtualization" remote="lineage" revision="758d65de75dc7b127512f34e86a52d2c738f18a4" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="pdk"/>
-  <project name="android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="lineage" revision="da6e556777602b37e326a5dc62e86f4a7ad7e0c7" upstream="lineage-22.0" dest-branch="lineage-22.0"/>
+  <project name="android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="lineage" revision="f2b92f1ecd736dfbed4702dbed6eb6face9619bf" upstream="lineage-22.0" dest-branch="lineage-22.0"/>
   <project name="android_prebuilts_extract-tools" path="prebuilts/extract-tools" remote="lineage" revision="fac6a80c7481954dd72d1cc9a7584cf6ed2209c6" upstream="lineage-22.0" dest-branch="lineage-22.0" clone-depth="1"/>
   <project name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="lineage" revision="5e030eafe024784a73cdf47e6936ac0dbfc763dc" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="pdk,linux,arm" clone-depth="1"/>
   <project name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="lineage" revision="111258a10e017f067b27e6cfcea7619d753f3309" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="pdk,linux,arm" clone-depth="1"/>
@@ -134,7 +136,7 @@
   <project name="android_prebuilts_tools-lineage" path="prebuilts/tools-lineage" remote="lineage" revision="10b65c9a4181390c2258a8c4f947e31f649b6756" upstream="lineage-22.0" dest-branch="lineage-22.0" clone-depth="1"/>
   <project name="android_system_libziparchive" path="system/libziparchive" remote="lineage" revision="3380a25a4d189cdffcaaf3bb5bd402f926f5b389" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="pdk"/>
   <project name="android_system_media" path="system/media" remote="lineage" revision="2545bded7a3205d4b282c27e7ff88d01894bdede" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="pdk"/>
-  <project name="android_tools_extract-utils" path="tools/extract-utils" remote="lineage" revision="e934265c1b0f839d90913357e4d0bb4dce58a66e" upstream="lineage-22.0" dest-branch="lineage-22.0"/>
+  <project name="android_tools_extract-utils" path="tools/extract-utils" remote="lineage" revision="1d27e6dd5f25d236e5664d4d57e21a31ef7d85a9" upstream="lineage-22.0" dest-branch="lineage-22.0"/>
   <project name="android_vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="lineage" revision="4dc9aecf34f71ebb479c60d212d11477f387c9d8" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="qcom,qssi"/>
   <project name="android_vendor_nxp_interfaces_opensource_nfc" path="vendor/nxp/opensource/interfaces/nfc" remote="lineage" revision="222d05de80e1aad205c0246d35c2df5af6a39261" upstream="lineage-19.1" dest-branch="lineage-19.1"/>
   <project name="android_vendor_nxp_nfc" path="vendor/nxp/nfc" remote="lineage" revision="7b3d30c22a56c8200d3a87a2a120497382103633" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="nxp"/>
@@ -163,7 +165,7 @@
   <project name="android_vendor_qcom_opensource_display" path="vendor/qcom/opensource/display" remote="lineage" revision="74a5c56b6229dbe518b43cf781e4c52e1a5ecb71" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="qcom"/>
   <project name="android_vendor_qcom_opensource_display-commonsys" path="vendor/qcom/opensource/commonsys/display" remote="lineage" revision="d2bfc3b38d6342106894f50da728b52ba35f4b25" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="qcom,qssi"/>
   <project name="android_vendor_qcom_opensource_display-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/display" remote="lineage" revision="f32767c2e037c82719f19c591ccc8842ff77db35" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="qcom,qssi"/>
-  <project name="android_vendor_qcom_opensource_fm-commonsys" path="vendor/qcom/opensource/commonsys/fm" remote="lineage" revision="41adf5466cb29f7c959ac153204f65ac9743640c" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="qcom,qssi"/>
+  <project name="android_vendor_qcom_opensource_fm-commonsys" path="vendor/qcom/opensource/commonsys/fm" remote="lineage" revision="bb15f60ed5fba55695fa8e6ef0dec6d70076221c" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="qcom,qssi"/>
   <project name="android_vendor_qcom_opensource_healthd-ext" path="vendor/qcom/opensource/healthd-ext" remote="lineage" revision="2a2d8322a6dfd11ce370305f67ea0c772039cfe5" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="qcom,kailua-vendor"/>
   <project name="android_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="lineage" revision="78890ac453b1dfaee8f2a3cdfff12ea5473fc616" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="qcom,qssi"/>
   <project name="android_vendor_qcom_opensource_libfmjni" path="vendor/qcom/opensource/libfmjni" remote="lineage" revision="055b0bed7a5f8822fc7c4658fff44c886177cb9b" upstream="lineage-22.0" dest-branch="lineage-22.0" groups="qcom"/>
@@ -1424,8 +1426,8 @@
   <project name="platform/tools/trebuchet" path="tools/trebuchet" revision="14e85d58461740d86077d268c623249077d8ae09" upstream="refs/tags/android-15.0.0_r5" dest-branch="refs/tags/android-15.0.0_r5" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs"/>
   <project name="platform_bionic" path="bionic" remote="BlissRoms" revision="f7e6d90131dc0892e9bbaa11a49562c5b5656b6a" upstream="voyager" dest-branch="voyager"/>
   <project name="platform_bootable_deprecated-ota" path="bootable/deprecated-ota" remote="BlissRoms" revision="9c57f225b8c3bb46de0c5a8be08b9a86fa351895" upstream="voyager" dest-branch="voyager"/>
-  <project name="platform_bootable_recovery" path="bootable/recovery" remote="BlissRoms" revision="062fa027e75bd33a47d43896546da8ed61f855e9" upstream="voyager" dest-branch="voyager"/>
-  <project name="platform_build_make" path="build/make" remote="BlissRoms" revision="ddc3526557cc2bf55a5b3283778b3edb683de402" upstream="voyager" dest-branch="voyager">
+  <project name="platform_bootable_recovery" path="bootable/recovery" remote="BlissRoms" revision="43eaebce6f1a0b5bf00c4ae2e3a36b1596eee4b1" upstream="voyager" dest-branch="voyager"/>
+  <project name="platform_build_make" path="build/make" remote="BlissRoms" revision="83a1f0a2e2afbc58dec27bc222b38add46a5fea2" upstream="voyager" dest-branch="voyager">
     <copyfile src="core/root.mk" dest="Makefile"/>
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default"/>
@@ -1434,16 +1436,16 @@
     <linkfile src="target" dest="build/target"/>
     <linkfile src="tools" dest="build/tools"/>
   </project>
-  <project name="platform_build_soong" path="build/soong" remote="BlissRoms" revision="f88111932a73092bf3a01ea5e0715c0d22cd1710" upstream="voyager" dest-branch="voyager">
+  <project name="platform_build_soong" path="build/soong" remote="BlissRoms" revision="6bfc61167765b5fd4edecb53daeb281577ae91e5" upstream="voyager" dest-branch="voyager">
     <linkfile src="root.bp" dest="Android.bp"/>
     <linkfile src="bootstrap.bash" dest="bootstrap.bash"/>
   </project>
-  <project name="platform_device_bliss_sepolicy" path="device/bliss/sepolicy" remote="BlissRoms" revision="3970b50d53f450a9ea3b9d68bfd4af970a375c32" upstream="voyager" dest-branch="voyager"/>
-  <project name="platform_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="BlissRoms" revision="83a5e0ab490bacd34b945b7f7a61476d07d32937" upstream="voyager" dest-branch="voyager" groups="qcom,qssi"/>
-  <project name="platform_device_qcom_sepolicy" path="device/qcom/sepolicy-legacy-um" remote="BlissRoms" revision="159720893403c4fad82f3c13f5cd32ec9fd04e1f" upstream="voyager-legacy-um" dest-branch="voyager-legacy-um" groups="qcom,sdm660"/>
-  <project name="platform_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr/legacy-um" remote="BlissRoms" revision="0a2cd870fd43b500b91bce758f8aa54aebdc427c" upstream="voyager-legacy-um" dest-branch="voyager-legacy-um" groups="qcom,lahaina"/>
-  <project name="platform_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr/sm8450" remote="BlissRoms" revision="c6154eee95c2b7009728f72dae4ced83959dfd8a" upstream="voyager-caf-sm8450" dest-branch="voyager-caf-sm8450" groups="qcom,waipio-vendor"/>
-  <project name="platform_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr/sm8550" remote="BlissRoms" revision="1ee23ec45c823c5df2d3b9f4c44102bab3e739e5" upstream="voyager-caf-sm8550" dest-branch="voyager-caf-sm8550" groups="qcom,kailua-vendor"/>
+  <project name="platform_device_bliss_sepolicy" path="device/bliss/sepolicy" remote="BlissRoms" revision="144862ee5cbc7447961c6a8c374347fe53d9d559" upstream="voyager" dest-branch="voyager"/>
+  <project name="platform_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="BlissRoms" revision="a21fe125ebf1430c5d4cf8e94bfa2e68eac798d9" upstream="voyager" dest-branch="voyager" groups="qcom,qssi"/>
+  <project name="platform_device_qcom_sepolicy" path="device/qcom/sepolicy-legacy-um" remote="BlissRoms" revision="c44b3450a7889a9c75092c5f4d670e5febd7d927" upstream="voyager-legacy-um" dest-branch="voyager-legacy-um" groups="qcom,sdm660"/>
+  <project name="platform_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr/legacy-um" remote="BlissRoms" revision="d7b80764802ea6bf1df16180d3d2d4e20b298b0b" upstream="voyager-legacy-um" dest-branch="voyager-legacy-um" groups="qcom,lahaina"/>
+  <project name="platform_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr/sm8450" remote="BlissRoms" revision="0dfb2591074d37dc3eb83b2558a8f3377d2eab35" upstream="voyager-caf-sm8450" dest-branch="voyager-caf-sm8450" groups="qcom,waipio-vendor"/>
+  <project name="platform_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr/sm8550" remote="BlissRoms" revision="2125772a9f1d6ff575df4e326378250cb3db749d" upstream="voyager-caf-sm8550" dest-branch="voyager-caf-sm8550" groups="qcom,kailua-vendor"/>
   <project name="platform_external_e2fsprogs" path="external/e2fsprogs" remote="BlissRoms" revision="db462af6e28da45a730d589cf0ca26159af28e8a" upstream="voyager" dest-branch="voyager"/>
   <project name="platform_external_gptfdisk" path="external/gptfdisk" remote="BlissRoms" revision="f092ac3ba8f2c8e313903192481561f0529f6beb" upstream="voyager" dest-branch="voyager" groups="pdk"/>
   <project name="platform_external_libcxx" path="external/libcxx" remote="BlissRoms" revision="1f1d4ad412c883d79de443f1b51b4414ae019b0d" upstream="voyager" dest-branch="voyager" groups="pdk"/>
@@ -1451,15 +1453,14 @@
   <project name="platform_external_mksh" path="external/mksh" remote="BlissRoms" revision="527e36514f5418b6327495adb98f5e9a0abf236e" upstream="voyager" dest-branch="voyager" groups="pdk"/>
   <project name="platform_external_tinycompress" path="external/tinycompress" remote="BlissRoms" revision="c47b09fc645bd9a0aec44412a5f372609b7c45e2" upstream="voyager" dest-branch="voyager" groups="pdk"/>
   <project name="platform_external_zstd" path="external/zstd" remote="BlissRoms" revision="87ccbb88bed46574fee567980532691abc69c2a8" upstream="voyager" dest-branch="voyager" groups="pdk"/>
-  <project name="platform_frameworks_av" path="frameworks/av" remote="BlissRoms" revision="73da254c7b021b8444e614d71be5dbc707932485" upstream="voyager" dest-branch="voyager"/>
-  <project name="platform_frameworks_base" path="frameworks/base" remote="BlissRoms" revision="0915b4459f7b7585f325a59f1c7f018dae5794ef" upstream="voyager" dest-branch="voyager"/>
-  <project name="platform_frameworks_libs_systemui" path="frameworks/libs/systemui" remote="BlissRoms" revision="79ffd212c32c2709dd023e83e34e06331f77ca07" upstream="voyager" dest-branch="voyager"/>
-  <project name="platform_frameworks_native" path="frameworks/native" remote="BlissRoms" revision="fafca1d257dc67cb8fb245e59cf26d02171641b9" upstream="voyager" dest-branch="voyager"/>
+  <project name="platform_frameworks_av" path="frameworks/av" remote="BlissRoms" revision="f936f308b79324936ac3b48cb008aae454203e94" upstream="voyager" dest-branch="voyager"/>
+  <project name="platform_frameworks_base" path="frameworks/base" remote="BlissRoms" revision="ec5c05e882bf73b987846d0c0024c172e2ee5879" upstream="voyager" dest-branch="voyager"/>
+  <project name="platform_frameworks_libs_systemui" path="frameworks/libs/systemui" remote="BlissRoms" revision="2efa193b060ac34d9a6a95b3e98976b7ee5a61a7" upstream="voyager" dest-branch="voyager"/>
+  <project name="platform_frameworks_native" path="frameworks/native" remote="BlissRoms" revision="75eadc004473e7a7c4a8a0827b02762f4ffb7ab9" upstream="voyager" dest-branch="voyager"/>
   <project name="platform_hardware_bliss_interfaces" path="hardware/bliss/interfaces" remote="BlissRoms" revision="f9ad9479850ff88330760defad87bb664d5a1dde" upstream="voyager" dest-branch="voyager"/>
-  <project name="platform_hardware_interfaces" path="hardware/interfaces" remote="BlissRoms" revision="27f13c15c97a3162b417ef14b3cb2bf354861fc5" upstream="voyager" dest-branch="voyager"/>
+  <project name="platform_hardware_interfaces" path="hardware/interfaces" remote="BlissRoms" revision="1098f7489579c6409a2b6f07656b3b5a470ab72d" upstream="voyager" dest-branch="voyager"/>
   <project name="platform_hardware_libhardware" path="hardware/libhardware" remote="BlissRoms" revision="a2aa2e02e221f5c3650f357e668dde9f013d9abc" upstream="voyager" dest-branch="voyager"/>
-  <project name="platform_hardware_lineage_compat" path="hardware/lineage/compat" remote="BlissRoms" revision="3c8a627c7a91e5d7f9c3b98e7e05719c97aaae56" upstream="voyager" dest-branch="voyager"/>
-  <project name="platform_hardware_qcom-caf_common" path="hardware/qcom-caf/common" remote="BlissRoms" revision="9c870a0d8041a313a4a4ee9bf8a72dceda2e51f1" upstream="voyager" dest-branch="voyager" groups="qcom">
+  <project name="platform_hardware_qcom-caf_common" path="hardware/qcom-caf/common" remote="BlissRoms" revision="87c5d5c081f7e7c147252a82a08422094c422d2f" upstream="voyager" dest-branch="voyager" groups="qcom">
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk"/>
     <linkfile src="os_pickup_sepolicy_vndr.mk" dest="device/qcom/sepolicy_vndr/SEPolicy.mk"/>
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/msm8953/Android.bp"/>
@@ -1493,14 +1494,16 @@
   <project name="platform_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="BlissRoms" revision="54f2872b52cc9c6e8e331503b3db94fa28d790fb" upstream="voyager" dest-branch="voyager"/>
   <project name="platform_kernel_configs" path="kernel/configs" remote="BlissRoms" revision="9d3f1801a2e605a5aeb3533550b5ab97ca88f7e4" upstream="voyager" dest-branch="voyager"/>
   <project name="platform_packages_apps_BlissSystemUI" path="packages/apps/BlissSystemUI" remote="BlissRoms" revision="be756520355518a35fb0994d262e7dc4c8e8a1b1" upstream="voyager" dest-branch="voyager"/>
-  <project name="platform_packages_apps_Blissify" path="packages/apps/Blissify" remote="BlissRoms" revision="ada0680abb2e182a61348eef9161b4e091c523eb" upstream="voyager" dest-branch="voyager"/>
-  <project name="platform_packages_apps_Contacts" path="packages/apps/Contacts" remote="BlissRoms" revision="26447f5c710eef66dac7b4b9bc69420bf9e947b4" upstream="voyager" dest-branch="voyager"/>
-  <project name="platform_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="BlissRoms" revision="1fb1f327745b528805800dbb6cf25f05a3009f24" upstream="voyager" dest-branch="voyager"/>
-  <project name="platform_packages_apps_Dialer" path="packages/apps/Dialer" remote="BlissRoms" revision="87c563701728bad5321fa3eade6420b4f45ca7b0" upstream="voyager" dest-branch="voyager"/>
-  <project name="platform_packages_apps_GameSpace" path="packages/apps/GameSpace" remote="BlissRoms" revision="fa0675e1edaab2e8e7231c0ff6bd8bc087f51d80" upstream="voyager" dest-branch="voyager"/>
-  <project name="platform_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="BlissRoms" revision="a04a984939ba516770e5de2b477840e6a0dcc0a8" upstream="voyager" dest-branch="voyager"/>
-  <project name="platform_packages_apps_Messaging" path="packages/apps/Messaging" remote="BlissRoms" revision="e31dd38899bf6cecced494139281a6992213fe2b" upstream="voyager" dest-branch="voyager"/>
-  <project name="platform_packages_apps_Settings" path="packages/apps/Settings" remote="BlissRoms" revision="eb5a59c4f21a13472fa6de19244b2bb77e620f79" upstream="voyager" dest-branch="voyager"/>
+  <project name="platform_packages_apps_BlissUpdater" path="packages/apps/BlissUpdater" remote="BlissRoms" revision="5a6d69bcbe8a36bc13f8dd9e0d1bbe29833a30d4" upstream="voyager" dest-branch="voyager"/>
+  <project name="platform_packages_apps_Blissify" path="packages/apps/Blissify" remote="BlissRoms" revision="03a0eb09f64cae80f66e073cf0731cf1fa0da040" upstream="voyager" dest-branch="voyager"/>
+  <project name="platform_packages_apps_Contacts" path="packages/apps/Contacts" remote="BlissRoms" revision="b29176a665689b7cabff5d63bb9ac5c43d418fcc" upstream="voyager" dest-branch="voyager"/>
+  <project name="platform_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="BlissRoms" revision="89842d47e7cbfd3b17cf2a6ca109ce03c5dc4772" upstream="voyager" dest-branch="voyager"/>
+  <project name="platform_packages_apps_Dialer" path="packages/apps/Dialer" remote="BlissRoms" revision="e20950101e16b21d47f69198ac95f578489abcce" upstream="voyager" dest-branch="voyager"/>
+  <project name="platform_packages_apps_GameSpace" path="packages/apps/GameSpace" remote="BlissRoms" revision="07f1d677e17f35285c2c153f3832f32475dca80d" upstream="voyager" dest-branch="voyager"/>
+  <project name="platform_packages_apps_LMOFreeform" path="packages/apps/LMOFreeform" remote="BlissRoms" revision="c51127c17c90eb6b6bd34b131d3d0ed746b6e12b" upstream="voyager" dest-branch="voyager"/>
+  <project name="platform_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="BlissRoms" revision="b9afb7ecbf5c2607e34ffc9a91b048a80e9c405e" upstream="voyager" dest-branch="voyager"/>
+  <project name="platform_packages_apps_Messaging" path="packages/apps/Messaging" remote="BlissRoms" revision="984f09fa8a147f1657d4e209fef15d86caff5334" upstream="voyager" dest-branch="voyager"/>
+  <project name="platform_packages_apps_Settings" path="packages/apps/Settings" remote="BlissRoms" revision="4799f3a86ac079a2e2d78a25fc9743859db92335" upstream="voyager" dest-branch="voyager"/>
   <project name="platform_packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="BlissRoms" revision="088a0c78e74f14912bfa6ca261e5ab177d8e0546" upstream="voyager" dest-branch="voyager"/>
   <project name="platform_packages_apps_paranoidsense" path="packages/apps/ParanoidSense" remote="BlissRoms-gitlab" revision="692a9331389798ed2c63db6c0dc9df288391dd11" upstream="voyager" dest-branch="voyager"/>
   <project name="platform_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="BlissRoms" revision="732c3ac2e0b1ef5ea2fbd780581b891970eb66f0" upstream="voyager" dest-branch="voyager"/>
@@ -1518,25 +1521,23 @@
   <project name="platform_prebuilts_custom-sdk" path="prebuilts/custom-sdk" remote="BlissRoms" revision="7926c3d4aed1b8dbbaf5e154e9dfeb6d2f542f28" upstream="voyager" dest-branch="voyager"/>
   <project name="platform_scripts" path="bliss/scripts" remote="BlissRoms" revision="4c84cfade4a20520e16aaf9acb2883ede0ca339c" upstream="voyager" dest-branch="voyager"/>
   <project name="platform_system_bpf" path="system/bpf" remote="BlissRoms" revision="859fc916d9e41167ab32c3e4fbcca197ae086d6e" upstream="voyager" dest-branch="voyager"/>
-  <project name="platform_system_core" path="system/core" remote="BlissRoms" revision="676080f4aef7d8cd197812010caa63b363b62e7c" upstream="voyager" dest-branch="voyager"/>
+  <project name="platform_system_core" path="system/core" remote="BlissRoms" revision="ad95bac2f1f8c4f95199dda25d6e1f7eead67aee" upstream="voyager" dest-branch="voyager"/>
   <project name="platform_system_extras" path="system/extras" remote="BlissRoms" revision="675f1a74c447621711a3a3b68158f3a4c991617f" upstream="voyager" dest-branch="voyager"/>
   <project name="platform_system_keymaster" path="system/keymaster" remote="BlissRoms" revision="29c5842113b4709b3db954849d781af1afe7059d" upstream="voyager" dest-branch="voyager"/>
   <project name="platform_system_libhidl" path="system/libhidl" remote="BlissRoms" revision="5b09ace704837c581257ee2c5d991111b0f665a3" upstream="voyager" dest-branch="voyager"/>
   <project name="platform_system_logging" path="system/logging" remote="BlissRoms" revision="f2a33454e1f6ad05ad5d77517b46485be459456a" upstream="voyager" dest-branch="voyager"/>
   <project name="platform_system_netd" path="system/netd" remote="BlissRoms" revision="0e2a6f0824dc0a9a30ac0428a799efdde40be32c" upstream="voyager" dest-branch="voyager"/>
   <project name="platform_system_security" path="system/security" remote="BlissRoms" revision="e22aff67f42757f46327a94bf86d66913fbfa5a3" upstream="voyager" dest-branch="voyager"/>
-  <project name="platform_system_sepolicy" path="system/sepolicy" remote="BlissRoms" revision="bc0443e4862fc8c3114acabfc7824991049d9706" upstream="voyager" dest-branch="voyager"/>
+  <project name="platform_system_sepolicy" path="system/sepolicy" remote="BlissRoms" revision="482ea488ffc93c89131f09bedbf4e50abd9ff251" upstream="voyager" dest-branch="voyager"/>
   <project name="platform_system_tools_mkbootimg" path="system/tools/mkbootimg" remote="BlissRoms" revision="83619b675e5080ab3c011321958a4a182a7930b4" upstream="voyager" dest-branch="voyager"/>
   <project name="platform_system_update_engine" path="system/update_engine" remote="BlissRoms" revision="29a5c68bd76e8a4315403148d7e7c47b940ae2e4" upstream="voyager" dest-branch="voyager" groups="pdk"/>
   <project name="platform_system_vold" path="system/vold" remote="BlissRoms" revision="03eb23c56ba046b4fc48e1b2131698174999b14a" upstream="voyager" dest-branch="voyager"/>
-  <project name="platform_vendor_bliss" path="vendor/bliss" remote="BlissRoms" revision="363d93b0087695a54f366bcd2657bbd5c866574c" upstream="voyager" dest-branch="voyager"/>
-  <project name="platform_vendor_certification" path="vendor/certification" remote="BlissRoms-gitlab" revision="c914a8dc627922ccef2137634b5a62ae5d9212d2" upstream="voyager" dest-branch="voyager"/>
-  <project name="platform_vendor_gms" path="vendor/gms" remote="BlissRoms-gitlab" revision="0fbff361d36fa26a24188b577a6db8447357e9f5" upstream="voyager" dest-branch="voyager"/>
+  <project name="platform_vendor_bliss" path="vendor/bliss" remote="BlissRoms" revision="1337c11538d1bc4089415dd9492fd53c65bfbcce" upstream="voyager" dest-branch="voyager"/>
+  <project name="platform_vendor_gms" path="vendor/gms" remote="BlissRoms-gitlab" revision="358eac92e5cebbf85b1342ee6968bf66308c1a96" upstream="voyager" dest-branch="voyager"/>
   <project name="platform_vendor_lineage_compat" path="vendor/lineage_compat" remote="BlissRoms" revision="f8ea783bb05d8da0ac4e66bd8c32c898736ae8cb" upstream="voyager" dest-branch="voyager"/>
   <project name="platform_vendor_nxp_opensource_packages_apps_Nfc" path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" remote="BlissRoms" revision="90ea50a713d70325e0df736bcb8e1f67576c5c43" upstream="voyager" dest-branch="voyager"/>
-  <project name="platform_vendor_overlays" path="vendor/overlays" remote="BlissRoms" revision="595c4b9a3b56e9179d7451483291ef0c3e8208ce" upstream="voyager" dest-branch="voyager"/>
+  <project name="platform_vendor_overlays" path="vendor/overlays" remote="BlissRoms" revision="768c9bd49058a5697ad25ecb943a7071b61830c7" upstream="voyager" dest-branch="voyager"/>
   <project name="platform_vendor_prebuilts" path="vendor/prebuilts" remote="BlissRoms-gitlab" revision="74aa069b2c8844497e68f52dfb4c6bb5117c98e6" upstream="voyager" dest-branch="voyager" clone-depth="1"/>
-  <project name="platform_vendor_qcom_opensource_libfmjni" path="vendor/nxp/opensource/libfmjni" remote="BlissRoms" revision="526ac96cefc7dce031fe312aa70baaeff938442a" upstream="voyager" dest-branch="voyager"/>
   <project name="platform_vendor_support" path="vendor/support" remote="BlissRoms" revision="622ecb2908d33ee07e846dcd4f935ff4d993df11" upstream="voyager" dest-branch="voyager"/>
   <project name="platform_vendor_systemuiclocks" path="vendor/SystemUIClocks" remote="BlissRoms-gitlab" revision="461d96b79f8d41ba31608dd205c584f1d3fe9d1d" upstream="voyager" dest-branch="voyager" clone-depth="1"/>
   <project name="toolchain/pgo-profiles" revision="3bccac8ab80f14846c89b99dd0bc0f0c6f6de39e" upstream="refs/tags/android-15.0.0_r5" dest-branch="refs/tags/android-15.0.0_r5" groups="pdk" clone-depth="1"/>
