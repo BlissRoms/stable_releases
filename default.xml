@@ -21,7 +21,7 @@
   
   <default remote="aosp" revision="refs/tags/android-15.0.0_r10" sync-j="4"/>
   
-  <project name="StudioKeys/platform_vendor_gms-test" path="vendor/gms" remote="gitlab" revision="35e9f003c72e87b2ac40cb24fa628bcbe8df6f69" upstream="voyager" dest-branch="voyager" clone-depth="1"/>
+  <project name="StudioKeys/platform_vendor_gms-test" path="vendor/gms" remote="gitlab" revision="c24e98c271865ded4078729d24f80f799aae7ec1" upstream="voyager" dest-branch="voyager" clone-depth="1"/>
   <project name="android_build_blueprint" path="build/blueprint" remote="lineage" revision="4ee96f97296b9288bfc34f8af8687a05672048b6" upstream="lineage-22.1" dest-branch="lineage-22.1" groups="pdk,tradefed"/>
   <project name="android_development" path="development" remote="lineage" revision="f0e219e6446312371b1a238398415b8fa499e6ab" upstream="lineage-22.1" dest-branch="lineage-22.1" groups="developers,pdk-cw-fs,pdk-fs"/>
   <project name="android_external_ant-wireless_ant_client" path="external/ant-wireless/ant_client" remote="lineage" revision="846dbb2d61e119b9fd8faa0dfafe5a4f33bbd785" upstream="lineage-22.1" dest-branch="lineage-22.1" groups="qcom,sdm660"/>
