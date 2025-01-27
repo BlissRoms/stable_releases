@@ -1465,7 +1465,7 @@
   <project name="platform_packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="BlissRoms" revision="e33390d1b936246892b822d2b8f6afb14df86c2b" upstream="voyager" dest-branch="voyager"/>
   <project name="platform_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="BlissRoms" revision="a7f1cba372325589bc4a52c7bf0ece532a28b9fa" upstream="voyager" dest-branch="voyager"/>
   <project name="platform_packages_modules_Bluetooth" path="packages/modules/Bluetooth" remote="BlissRoms" revision="303be123796b21d72921b14f4d0a3d1c0ba65a60" upstream="voyager" dest-branch="voyager" groups="pdk"/>
-  <project name="platform_packages_modules_Connectivity" path="packages/modules/Connectivity" remote="BlissRoms" revision="e1fcbf68aa125fe33ba2f992a1680c846e853c9d" upstream="voyager" dest-branch="voyager"/>
+  <project name="platform_packages_modules_Connectivity" path="packages/modules/Connectivity" remote="BlissRoms" revision="eb09dd1891b65398713ec757c89ec20da036aa18" upstream="voyager" dest-branch="voyager"/>
   <project name="platform_packages_modules_NetworkStack" path="packages/modules/NetworkStack" remote="BlissRoms" revision="7f66b125a47d21abb7963a8d7071ee72d6c01469" upstream="voyager" dest-branch="voyager" groups="pdk-cw-fs,pdk-fs"/>
   <project name="platform_packages_modules_Wifi" path="packages/modules/Wifi" remote="BlissRoms" revision="e569e48f78f657142bab67cc8707074857fd9433" upstream="voyager" dest-branch="voyager"/>
   <project name="platform_packages_modules_adb" path="packages/modules/adb" remote="BlissRoms" revision="c698b743e488e95c5399f8bd7e2da7188f6c3991" upstream="voyager" dest-branch="voyager"/>
