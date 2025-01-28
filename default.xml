@@ -1397,7 +1397,7 @@
     <linkfile src="target" dest="build/target"/>
     <linkfile src="tools" dest="build/tools"/>
   </project>
-  <project name="platform_build_soong" path="build/soong" remote="BlissRoms" revision="c7dc984fec2358e80d04e7b441930fcf466b9619" upstream="voyager" dest-branch="voyager">
+  <project name="platform_build_soong" path="build/soong" remote="BlissRoms" revision="b24eb1f1b7318272571ad35dceb13d22536341f7" upstream="voyager" dest-branch="voyager">
     <linkfile src="root.bp" dest="Android.bp"/>
     <linkfile src="bootstrap.bash" dest="bootstrap.bash"/>
   </project>
