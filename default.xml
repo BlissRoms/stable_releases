@@ -1122,7 +1122,7 @@
     <linkfile src="bazel.WORKSPACE" dest="WORKSPACE"/>
     <linkfile src="bazel.BUILD" dest="BUILD"/>
   </project>
-  <project name="platform_build_make" path="build/make" remote="BlissRoms" revision="229eb7969125f5caedc4b4ac4d5d29939fdae732" upstream="voyager-qpr2" dest-branch="voyager-qpr2" groups="pdk,sysui-studio">
+  <project name="platform_build_make" path="build/make" remote="BlissRoms" revision="587be344f739da52ccdd9b081e0f0e1b86c366d8" upstream="voyager-qpr2" dest-branch="voyager-qpr2" groups="pdk,sysui-studio">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default"/>
     <linkfile src="core" dest="build/core"/>
@@ -1136,12 +1136,12 @@
   </project>
   <project name="platform_device_bliss_sepolicy" path="device/lineage/sepolicy" remote="BlissRoms" revision="dcc963c706487ccccd621263fb9cb36f10e51ce3" upstream="voyager-qpr2" dest-branch="voyager-qpr2"/>
   <project name="platform_frameworks_av" path="frameworks/av" remote="BlissRoms" revision="f1c4fdab5128d336b1d4faf88d13c14e252c0307" upstream="voyager-qpr2" dest-branch="voyager-qpr2" groups="pdk"/>
-  <project name="platform_frameworks_base" path="frameworks/base" remote="BlissRoms" revision="1346ea44f6617761121f3fc3b4fa897425a0e6b9" upstream="voyager-qpr2" dest-branch="voyager-qpr2" groups="pdk-cw-fs,pdk-fs,sysui-studio"/>
+  <project name="platform_frameworks_base" path="frameworks/base" remote="BlissRoms" revision="91cefbd154f23e9c8a3b148ffecbd90000235d51" upstream="voyager-qpr2" dest-branch="voyager-qpr2" groups="pdk-cw-fs,pdk-fs,sysui-studio"/>
   <project name="platform_frameworks_libs_systemui" path="frameworks/libs/systemui" remote="BlissRoms" revision="2a1afd533a7337be51a4906132c81ff2da585c19" upstream="voyager-qpr2" dest-branch="voyager-qpr2" groups="pdk-cw-fs,pdk-fs,sysui-studio"/>
-  <project name="platform_frameworks_native" path="frameworks/native" remote="BlissRoms" revision="5af6d57ef5f74edc1ea4f8a93deb08fb5d4faf1d" upstream="voyager-qpr2" dest-branch="voyager-qpr2" groups="pdk"/>
+  <project name="platform_frameworks_native" path="frameworks/native" remote="BlissRoms" revision="2d3c319c71f71eeaa32b6adc831165a0969db1d8" upstream="voyager-qpr2" dest-branch="voyager-qpr2" groups="pdk"/>
   <project name="platform_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="BlissRoms" revision="ac9fa6bc0bae865dada05f2a7bc7870d8799ed30" upstream="voyager-qpr2" dest-branch="voyager-qpr2" groups="pdk,sysui-studio"/>
   <project name="platform_hardware_interfaces" path="hardware/interfaces" remote="BlissRoms" revision="43d68dcfe962c2f9a268ceb01f353f3fdb1ded81" upstream="voyager-qpr2" dest-branch="voyager-qpr2" groups="pdk,sysui-studio"/>
-  <project name="platform_lineage-sdk" path="lineage-sdk" remote="BlissRoms" revision="c52aea942600422a69af69de500c01ba8df970c3" upstream="voyager-qpr2" dest-branch="voyager-qpr2"/>
+  <project name="platform_lineage-sdk" path="lineage-sdk" remote="BlissRoms" revision="0b1bb67448af0d8df482a680d95afb423cd22e82" upstream="voyager-qpr2" dest-branch="voyager-qpr2"/>
   <project name="platform_packages_apps_Backgrounds" path="packages/apps/Backgrounds" remote="BlissRoms" revision="f7e95c5bc912226879242db6cb20899864f8421a" upstream="voyager-qpr2" dest-branch="voyager-qpr2"/>
   <project name="platform_packages_apps_BlissUpdater" path="packages/apps/BlissUpdater" remote="BlissRoms" revision="6a5530626d125406b427e9367164edab83cacc56" upstream="voyager-qpr2" dest-branch="voyager-qpr2"/>
   <project name="platform_packages_apps_Blissify" path="packages/apps/Blissify" remote="BlissRoms" revision="326852d93b1ef4c0b21c4d1dd653a7cdc4bff723" upstream="voyager-qpr2" dest-branch="voyager-qpr2"/>
@@ -1154,15 +1154,15 @@
   <project name="platform_packages_apps_LineageParts" path="packages/apps/LineageParts" remote="BlissRoms" revision="f8de80a34266c9edb60b0e84d167a615af1a5b19" upstream="voyager-qpr2" dest-branch="voyager-qpr2"/>
   <project name="platform_packages_apps_Messaging" path="packages/apps/Messaging" remote="BlissRoms" revision="1b86f47fcacf7a0d814254ecf61caa225d9caf1e" upstream="voyager-qpr2" dest-branch="voyager-qpr2" groups="pdk-fs"/>
   <project name="platform_packages_apps_Nfc" path="packages/apps/Nfc" remote="BlissRoms" revision="42569284abe2bdbd6313d46f142fc4c7879c2dd0" upstream="voyager-qpr2" dest-branch="voyager-qpr2" groups="apps_nfc,pdk-fs,pdk-cw-fs"/>
-  <project name="platform_packages_apps_Settings" path="packages/apps/Settings" remote="BlissRoms" revision="6ecc3fbc72d5b967753cb17930e8e3f06405cfcc" upstream="voyager-qpr2" dest-branch="voyager-qpr2" groups="pdk-fs,pdk-cw-tvc"/>
+  <project name="platform_packages_apps_Settings" path="packages/apps/Settings" remote="BlissRoms" revision="80b7aaad07e5e48046a2ca3836c1f938d2d52bfa" upstream="voyager-qpr2" dest-branch="voyager-qpr2" groups="pdk-fs,pdk-cw-tvc"/>
   <project name="platform_packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="BlissRoms" revision="aa303f01c8c438d0356a99efc710defd446d6598" upstream="voyager-qpr2" dest-branch="voyager-qpr2"/>
   <project name="platform_packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="BlissRoms" revision="cf14e8163040eb52702fd59c373cbda4aba82a85" upstream="voyager-qpr2" dest-branch="voyager-qpr2" groups="pdk-fs,sysui-studio"/>
   <project name="platform_packages_apps_WallpaperPicker2" path="packages/apps/WallpaperPicker2" remote="BlissRoms" revision="ad38348e5f5e1949931a38c7c204b6706c6c8d3a" upstream="voyager-qpr2" dest-branch="voyager-qpr2" groups="pdk-fs,sysui-studio"/>
   <project name="platform_packages_modules_Bluetooth" path="packages/modules/Bluetooth" remote="BlissRoms" revision="dd74ad9f57e8cbe33a6cccaac576d3d919d9aaf9" upstream="voyager-qpr2" dest-branch="voyager-qpr2" groups="pdk"/>
   <project name="platform_packages_modules_Wifi" path="packages/modules/Wifi" remote="BlissRoms" revision="e2ed36291010051a60ac2e878eab685be55ea2c8" upstream="voyager-qpr2" dest-branch="voyager-qpr2" groups="pdk-cw-fs,pdk-fs,sysui-studio"/>
   <project name="platform_packages_services_OmniJaws" path="packages/services/OmniJaws" remote="BlissRoms" revision="1c8415b66eb1d768718eb1b03459027db83e7fd7" upstream="voyager-qpr2" dest-branch="voyager-qpr2"/>
-  <project name="platform_packages_services_Telecomm" path="packages/services/Telecomm" remote="BlissRoms" revision="3c8fde4f0a0d2056ee668a42cf91e74a5bebae94" upstream="voyager-qpr2" dest-branch="voyager-qpr2" groups="pdk-cw-fs,pdk-fs"/>
-  <project name="platform_packages_services_Telephony" path="packages/services/Telephony" remote="BlissRoms" revision="58f3eb229e50bc1f2682f6ca1fd93796b8ef7b08" upstream="voyager-qpr2" dest-branch="voyager-qpr2" groups="pdk-cw-fs,pdk-fs"/>
+  <project name="platform_packages_services_Telecomm" path="packages/services/Telecomm" remote="BlissRoms" revision="a900c3466ceb4f95961a772daa162bb2b121a3df" upstream="voyager-qpr2" dest-branch="voyager-qpr2" groups="pdk-cw-fs,pdk-fs"/>
+  <project name="platform_packages_services_Telephony" path="packages/services/Telephony" remote="BlissRoms" revision="98e2816ef87740679bdf15423f76e6a4b52f4741" upstream="voyager-qpr2" dest-branch="voyager-qpr2" groups="pdk-cw-fs,pdk-fs"/>
   <project name="platform_system_core" path="system/core" remote="BlissRoms" revision="44e7a7fff9b520ad0c6bbf78485690c23413ca06" upstream="voyager-qpr2" dest-branch="voyager-qpr2" groups="pdk"/>
   <project name="platform_system_sepolicy" path="system/sepolicy" remote="BlissRoms" revision="b9b95effe7387bb20bba23e0586e1ef8372bea2a" upstream="voyager-qpr2" dest-branch="voyager-qpr2" groups="pdk"/>
   <project name="platform_system_update_engine" path="system/update_engine" remote="BlissRoms" revision="68e405024cd162c90d836c551071dc844b4582fa" upstream="voyager-qpr2" dest-branch="voyager-qpr2" groups="pdk"/>
