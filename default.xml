@@ -1167,7 +1167,7 @@
   <project name="platform_system_core" path="system/core" remote="BlissRoms" revision="685facba838e09ce021e30b33691ddd91944773c" upstream="voyager-qpr2" dest-branch="voyager-qpr2" groups="pdk"/>
   <project name="platform_system_sepolicy" path="system/sepolicy" remote="BlissRoms" revision="b9b95effe7387bb20bba23e0586e1ef8372bea2a" upstream="voyager-qpr2" dest-branch="voyager-qpr2" groups="pdk"/>
   <project name="platform_system_update_engine" path="system/update_engine" remote="BlissRoms" revision="68e405024cd162c90d836c551071dc844b4582fa" upstream="voyager-qpr2" dest-branch="voyager-qpr2" groups="pdk"/>
-  <project name="platform_vendor_bliss" path="vendor/lineage" remote="BlissRoms" revision="ff33b427dcef8230a9db8f0a929531d5b1d4552e" upstream="voyager-qpr2" dest-branch="voyager-qpr2"/>
+  <project name="platform_vendor_bliss" path="vendor/lineage" remote="BlissRoms" revision="f0622567afd0de5824f381bf15ffd837e9f3eaaf" upstream="voyager-qpr2" dest-branch="voyager-qpr2"/>
   <project name="platform_vendor_extras" path="vendor/extras" remote="BlissRoms" revision="6e0df26ce9467708a0bd2dbab60da8a652e7abaa" upstream="voyager-qpr2" dest-branch="voyager-qpr2"/>
   <project name="toolchain/pgo-profiles" remote="aosp" revision="9cb1bd80a1c19d9e545b00c0767d354ba81e1676" upstream="refs/tags/android-15.0.0_r32" dest-branch="refs/tags/android-15.0.0_r32" groups="pdk" clone-depth="1"/>
   <project name="tools/platform-compat" remote="aosp" revision="b7bfe76a3376ed14ad4000514e7f5aa4f0ee949d" upstream="refs/tags/android-15.0.0_r32" dest-branch="refs/tags/android-15.0.0_r32" groups="pdk-cw-fs,pdk-fs,pdk"/>
