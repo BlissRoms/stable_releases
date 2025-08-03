@@ -1133,7 +1133,7 @@
   <project name="platform/tools/tradefederation/prebuilts" path="tools/tradefederation/prebuilts" remote="aosp" revision="f22bceb7858d01dbed2e6d6a5295ffd20826f11b" upstream="refs/tags/android-15.0.0_r32" dest-branch="refs/tags/android-15.0.0_r32" groups="pdk,tradefed" clone-depth="1"/>
   <project name="platform/tools/treble" path="tools/treble" remote="aosp" revision="105f628577ac4ba0e277a494fbb614ed8c12a994" upstream="refs/tags/android-15.0.0_r32" dest-branch="refs/tags/android-15.0.0_r32" groups="tools,pdk"/>
   <project name="platform/tools/trebuchet" path="tools/trebuchet" remote="aosp" revision="56b170dbe6574b1f0ec9db7a63de7238ca6a09ea" upstream="refs/tags/android-15.0.0_r32" dest-branch="refs/tags/android-15.0.0_r32" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs"/>
-  <project name="platform_art" path="art" remote="BlissRoms" revision="1ca9410749ec208c44a8d2fad6b2ede850bd53f8" upstream="voyager-qpr2" dest-branch="voyager-qpr2" groups="pdk"/>
+  <project name="platform_art" path="art" remote="BlissRoms" revision="b4880bed8223aaf88a5c54e1b4698b29ea8c63fb" upstream="voyager-qpr2" dest-branch="voyager-qpr2" groups="pdk"/>
   <project name="platform_bootable_recovery" path="bootable/recovery" remote="BlissRoms" revision="02059f23ff752e1ee820b76dc14ff457b44ea1e7" upstream="voyager-qpr2" dest-branch="voyager-qpr2" groups="pdk"/>
   <project name="platform_build_bazel" path="build/bazel" remote="BlissRoms" revision="45fbefff493d861a9f6f41068457bdb89ad932bf" upstream="voyager-qpr2" dest-branch="voyager-qpr2" groups="pdk">
     <linkfile src="bazel.WORKSPACE" dest="WORKSPACE"/>
