@@ -18,7 +18,6 @@
   
   <default remote="github" revision="refs/heads/lineage-22.2" sync-j="4" sync-c="true"/>
   
-  <project name="LineageOS/android" path="android" revision="e64bf2e7417450cb61c27a6a8ab45b569bbe7355" upstream="refs/heads/lineage-22.2" dest-branch="refs/heads/lineage-22.2"/>
   <project name="LineageOS/android_bionic" path="bionic" revision="e168d56cb67236d6d24807be5ebc99ca66d9bb37" upstream="refs/heads/lineage-22.2" dest-branch="refs/heads/lineage-22.2" groups="pdk"/>
   <project name="LineageOS/android_bootable_deprecated-ota" path="bootable/deprecated-ota" revision="e0a8a08caf61f2e16586471e79bea80da6465967" upstream="refs/heads/lineage-22.2" dest-branch="refs/heads/lineage-22.2" groups="pdk-cw"/>
   <project name="LineageOS/android_build_blueprint" path="build/blueprint" revision="c7c63940d4be6a08a01a30ababca3abc0d1ac3da" upstream="refs/heads/lineage-22.2" dest-branch="refs/heads/lineage-22.2" groups="pdk,tradefed"/>
@@ -1140,7 +1139,7 @@
     <linkfile src="bazel.WORKSPACE" dest="WORKSPACE"/>
     <linkfile src="bazel.BUILD" dest="BUILD"/>
   </project>
-  <project name="platform_build_make" path="build/make" remote="BlissRoms" revision="4d71776929f9fff1a78dda84d5a067ac8dadd2c7" upstream="voyager-qpr2" dest-branch="voyager-qpr2" groups="pdk,sysui-studio">
+  <project name="platform_build_make" path="build/make" remote="BlissRoms" revision="9c49d384732db2f3e9f39d251b11626f222dd59d" upstream="voyager-qpr2" dest-branch="voyager-qpr2" groups="pdk,sysui-studio">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default"/>
     <linkfile src="core" dest="build/core"/>
@@ -1148,7 +1147,7 @@
     <linkfile src="target" dest="build/target"/>
     <linkfile src="tools" dest="build/tools"/>
   </project>
-  <project name="platform_build_soong" path="build/soong" remote="BlissRoms" revision="b54178308c30b425c12318e499357cb72701d006" upstream="voyager-qpr2" dest-branch="voyager-qpr2" groups="pdk,tradefed">
+  <project name="platform_build_soong" path="build/soong" remote="BlissRoms" revision="bdff788463be55d05df8c0c699624d096a7c1933" upstream="voyager-qpr2" dest-branch="voyager-qpr2" groups="pdk,tradefed">
     <linkfile src="root.bp" dest="Android.bp"/>
     <linkfile src="bootstrap.bash" dest="bootstrap.bash"/>
   </project>
@@ -1184,7 +1183,7 @@
   <project name="platform_system_core" path="system/core" remote="BlissRoms" revision="3de9996fce59a8393d1fda9331b31997efb60f24" upstream="voyager-qpr2" dest-branch="voyager-qpr2" groups="pdk"/>
   <project name="platform_system_sepolicy" path="system/sepolicy" remote="BlissRoms" revision="b9b95effe7387bb20bba23e0586e1ef8372bea2a" upstream="voyager-qpr2" dest-branch="voyager-qpr2" groups="pdk"/>
   <project name="platform_system_update_engine" path="system/update_engine" remote="BlissRoms" revision="68e405024cd162c90d836c551071dc844b4582fa" upstream="voyager-qpr2" dest-branch="voyager-qpr2" groups="pdk"/>
-  <project name="platform_vendor_bliss" path="vendor/lineage" remote="BlissRoms" revision="3d3416843ef7a5efba291666e232de5a4d894dfd" upstream="voyager-qpr2" dest-branch="voyager-qpr2"/>
+  <project name="platform_vendor_bliss" path="vendor/bliss" remote="BlissRoms" revision="a62f9cff4e222887ce1daef0210a3750af4796ef" upstream="voyager-qpr2" dest-branch="voyager-qpr2"/>
   <project name="platform_vendor_extras" path="vendor/extras" remote="BlissRoms" revision="16c49bd062eedbe0420b9ce6fa5b648e6e88426d" upstream="voyager-qpr2" dest-branch="voyager-qpr2"/>
   <project name="toolchain/pgo-profiles" remote="aosp" revision="9cb1bd80a1c19d9e545b00c0767d354ba81e1676" upstream="refs/tags/android-15.0.0_r32" dest-branch="refs/tags/android-15.0.0_r32" groups="pdk" clone-depth="1"/>
   <project name="tools/platform-compat" remote="aosp" revision="b7bfe76a3376ed14ad4000514e7f5aa4f0ee949d" upstream="refs/tags/android-15.0.0_r32" dest-branch="refs/tags/android-15.0.0_r32" groups="pdk-cw-fs,pdk-fs,pdk"/>
