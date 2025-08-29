@@ -45,7 +45,7 @@ Installing Java 8
 
 **Repo initialization**
    
-    repo init -u https://github.com/BlissRoms/stable_releases.git -b refs/tags/v18.6-stable-voyager --git-lfs
+    repo init -u https://github.com/BlissRoms/stable_releases.git -b refs/tags/v18.7-stable-voyager --git-lfs
 
 **Sync repo**
 
