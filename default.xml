@@ -1095,7 +1095,9 @@
     <linkfile src="root.bp" dest="Android.bp"/>
     <linkfile src="bootstrap.bash" dest="bootstrap.bash"/>
   </project>
-  <project name="platform_device_bliss_sepolicy" path="device/bliss/sepolicy" remote="BlissRoms" revision="685154465e83279cb705f3ebd987d7e484f655d6" upstream="waterlily" dest-branch="waterlily"/>
+  <project name="platform_device_bliss_sepolicy" path="device/bliss/sepolicy" remote="BlissRoms" revision="685154465e83279cb705f3ebd987d7e484f655d6" upstream="waterlily" dest-branch="waterlily">
+    <linkfile src="qcom/sepolicy.mk" dest="device/lineage/sepolicy/qcom/sepolicy.mk"/>
+  </project>
   <project name="platform_external_bouncycastle" path="external/bouncycastle" remote="BlissRoms" revision="b5e55a68a688e7a2fa7bacc82d55fa021bb386cc" upstream="waterlily" dest-branch="waterlily" groups="pdk"/>
   <project name="platform_frameworks_av" path="frameworks/av" remote="BlissRoms" revision="c87accb236e3260bb92961c28ff2d8c9a5184ba7" upstream="waterlily" dest-branch="waterlily" groups="pdk,sysui-studio"/>
   <project name="platform_frameworks_base" path="frameworks/base" remote="BlissRoms" revision="f8c86e2d1a38cd702c9def42ae3a0c2928deac62" upstream="waterlily" dest-branch="waterlily" groups="pdk-cw-fs,pdk-fs,sysui-studio"/>
