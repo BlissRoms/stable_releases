@@ -66,21 +66,6 @@
   <project name="LineageOS/android_hardware_knowles_athletico_sound_trigger_hal" path="hardware/knowles/athletico/sound_trigger_hal" revision="fcbd955ac3fe571c22b7bd86570e72ca33ca834c" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0" groups="coral"/>
   <project name="LineageOS/android_hardware_libhardware" path="hardware/libhardware" revision="2c0db7eb4e4e355ad55757885583072dc0c4695c" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0" groups="pdk"/>
   <project name="LineageOS/android_hardware_lineage_compat" path="hardware/lineage/compat" revision="b7992333fe7e0558f6466b1a579c9ffdac802a5f" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0"/>
-  <project name="LineageOS/android_hardware_qcom-caf_common" path="hardware/qcom-caf/common" revision="dacf91affba45f57af875d6d7048c486dfbe447c" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0" groups="qcom">
-    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk"/>
-    <linkfile src="os_pickup_sepolicy_vndr.mk" dest="device/qcom/sepolicy_vndr/SEPolicy.mk"/>
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/msm8953/Android.bp"/>
-    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp"/>
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm660/Android.bp"/>
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp"/>
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp"/>
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp"/>
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp"/>
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8450/Android.bp"/>
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8550/Android.bp"/>
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8650/Android.bp"/>
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8750/Android.bp"/>
-  </project>
   <project name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom/audio" revision="1b40af4516a07de1c8dc9fb7ffd2b2c192247967" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0" groups="qcom,qcom_audio,pdk-qcom"/>
   <project name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom-caf/msm8953/audio" revision="f9ff4f29d8f330a8a97c4d3b49de5d9f37ebcb8a" upstream="lineage-23.0-caf-msm8953" dest-branch="lineage-23.0-caf-msm8953" groups="qcom,msm8953"/>
   <project name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom-caf/msm8998/audio" revision="717b078e6fa14e118c281b6a4eb61a1322652611" upstream="lineage-23.0-caf-msm8998" dest-branch="lineage-23.0-caf-msm8998" groups="qcom,legacy-qcom"/>
@@ -125,9 +110,9 @@
   <project name="LineageOS/android_hardware_samsung_nfc" path="hardware/samsung/nfc" revision="eb70bdafa575d507fc161627aaac3553e95398f3" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0" groups="pdk"/>
   <project name="LineageOS/android_hardware_st_nfc" path="hardware/st/nfc" revision="e4b53d7a775ded5b68998c7fdd56a3f88bc8c02a" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0" groups="pdk"/>
   <project name="LineageOS/android_kernel_configs" path="kernel/configs" revision="ad42d941608c5a793150ca6241b18f5aa12497c1" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0" groups="vts,pdk"/>
-  <project name="LineageOS/android_packages_apps_Aperture" path="packages/apps/Aperture" revision="90c6cd24c262ba83bcc680320d5a9d3a4c84a52a" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0"/>
+  <project name="LineageOS/android_packages_apps_Aperture" path="packages/apps/Aperture" revision="c9f983186edefb9a7e58f25bee11aa79bac6682e" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0"/>
   <project name="LineageOS/android_packages_apps_AudioFX" path="packages/apps/AudioFX" revision="399f30c9c4dc5c3bcaeb77d1765999afe8f8b928" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0"/>
-  <project name="LineageOS/android_packages_apps_Camelot" path="packages/apps/Camelot" revision="cbb6a81041ecbedb9485e49ba451ca68a3232448" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0"/>
+  <project name="LineageOS/android_packages_apps_Camelot" path="packages/apps/Camelot" revision="e8345aa11c2818c52549fa63b5595a79c7f97a0b" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0"/>
   <project name="LineageOS/android_packages_apps_Car_Settings" path="packages/apps/Car/Settings" revision="874c5755063f13b27bcfebac05c74a3a8ff0a616" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0" groups="pdk-fs,pdk-cw-tvc"/>
   <project name="LineageOS/android_packages_apps_Car_SystemUI" path="packages/apps/Car/SystemUI" revision="56385d2825d1910adf6f095768c75ae79cb28b8c" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0" groups="pdk-fs,pdk-cw-tvc"/>
   <project name="LineageOS/android_packages_apps_Catapult" path="packages/apps/Catapult" revision="75fb593820fc40c3053cee1d0b3822e28ce64e3e" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0"/>
@@ -140,11 +125,11 @@
   <project name="LineageOS/android_packages_apps_FMRadio" path="packages/apps/FMRadio" revision="7e89b012877f7cea109eca09dc3edb4739ea577e" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0"/>
   <project name="LineageOS/android_packages_apps_FlipFlap" path="packages/apps/FlipFlap" revision="dd49d554898f881d624d17df4c7c7b2dcdc95b4b" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0"/>
   <project name="LineageOS/android_packages_apps_Gallery2" path="packages/apps/Gallery2" revision="c17bdc202747c36f8ba768958aea7fda969a10e1" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0" groups="pdk-fs"/>
-  <project name="LineageOS/android_packages_apps_Glimpse" path="packages/apps/Glimpse" revision="b99037083385c31c674dbe9cf40f1c66dc8752fa" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0"/>
+  <project name="LineageOS/android_packages_apps_Glimpse" path="packages/apps/Glimpse" revision="7d0417c923296423695a7d398705f6dfefe28721" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0"/>
   <project name="LineageOS/android_packages_apps_Jelly" path="packages/apps/Jelly" revision="384ff77ae370c3eb08df9490d94ce069449269dd" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0"/>
   <project name="LineageOS/android_packages_apps_LineageCustomizer" path="packages/apps/LineageCustomizer" revision="6d78f750ddfe8b7b5821a9ce83860755491b8bd8" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0"/>
   <project name="LineageOS/android_packages_apps_Profiles" path="packages/apps/Profiles" revision="70ae853289aa028eaf2ea34ef820f32d43ce4680" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0"/>
-  <project name="LineageOS/android_packages_apps_Recorder" path="packages/apps/Recorder" revision="ac959a53aa26a0c218d4038c10849f39010f41d9" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0"/>
+  <project name="LineageOS/android_packages_apps_Recorder" path="packages/apps/Recorder" revision="ba7e033d56843069b38548dd4a83dc78361aca86" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0"/>
   <project name="LineageOS/android_packages_apps_Seedvault" path="packages/apps/Seedvault" revision="da6d54a76a5e7b5f30a1fc5d57700b112c608e97" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0"/>
   <project name="LineageOS/android_packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" revision="cc1a49f27a19bdcb19727b877ca13af947011e67" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0" groups="pdk-fs"/>
   <project name="LineageOS/android_packages_apps_SimpleDeviceConfig" path="packages/apps/SimpleDeviceConfig" revision="82d31b18dd2550e05f89248f128cb571eecc863a" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0"/>
@@ -153,7 +138,7 @@
   <project name="LineageOS/android_packages_apps_Tag" path="packages/apps/Tag" revision="089ebc8a4befb7d8972464274284e2744a69098c" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0" groups="pdk-fs"/>
   <project name="LineageOS/android_packages_apps_TvSettings" path="packages/apps/TvSettings" revision="c20fd16d4f7a35455d59ff042d6f7ae551cc645f" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0" groups="pdk-fs,pdk-cw-tvc"/>
   <project name="LineageOS/android_packages_apps_TvSystemUI" path="packages/apps/TvSystemUI" revision="e02e0c1c29e6340d8f82d7ea66e95e69ab8f713b" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0" groups="pdk-fs"/>
-  <project name="LineageOS/android_packages_apps_Twelve" path="packages/apps/Twelve" revision="7d3642d0e9a5a78e8c4a131be92c02615702b831" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0"/>
+  <project name="LineageOS/android_packages_apps_Twelve" path="packages/apps/Twelve" revision="f6fa65cce6f30af505a0b50395e5294e6cf9e906" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0"/>
   <project name="LineageOS/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" revision="dd0d9276eb8be14055c3e280cdcc9c05071dc9f7" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0" groups="pdk-fs"/>
   <project name="LineageOS/android_packages_inputmethods_LeanbackIME" path="packages/inputmethods/LeanbackIME" revision="370ed1b78378b714c0e4ce1794cd3494a5e1321d" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0" groups="pdk-fs"/>
   <project name="LineageOS/android_packages_modules_IntentResolver" path="packages/modules/IntentResolver" revision="1682d31c9ea91b1ebb21f802ddbdfd0530b6dfab" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0" groups="pdk,sysui-studio"/>
@@ -170,7 +155,7 @@
   <project name="LineageOS/android_packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" revision="400e63d806b8d7491ec3793d70c826489331c4b7" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0" groups="pdk-cw-fs,pdk-fs"/>
   <project name="LineageOS/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" revision="0138b508f5a6bdf9cc5416237a8e5ba63ff31fb4" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0" groups="pdk-cw-fs,pdk-fs"/>
   <project name="LineageOS/android_packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" revision="9f35406c1d267f8b38141ab4abf3065027fdb14b" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0" groups="pdk-cw-fs,pdk-fs"/>
-  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" revision="a42de6a50bde20eb251d36fb2358ef4e1dbd040d" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0"/>
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" revision="36c8f2e5cc0cabf32bbbfb68b18f2680e256ce25" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0"/>
   <project name="LineageOS/android_packages_screensavers_PhotoTable" path="packages/screensavers/PhotoTable" revision="c185c86cbdcf2f299d7da204d524405f7bc6d7f8" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0" groups="pdk-fs"/>
   <project name="LineageOS/android_packages_services_Car" path="packages/services/Car" revision="ac1d9bfb127f5f0658cc1195210cf0a6b4041bb0" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0" groups="pdk-cw-fs,pdk-fs"/>
   <project name="LineageOS/android_packages_services_DeviceAsWebcam" path="packages/services/DeviceAsWebcam" revision="259ff0d014b54247286651efc635d4aafaa4900f" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0" groups="pdk-cw-fs,pdk-fs"/>
@@ -192,7 +177,7 @@
   <project name="LineageOS/android_system_security" path="system/security" revision="fba2c87f3276633c3e6fd641a5daa10fa833687b" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0" groups="pdk"/>
   <project name="LineageOS/android_system_update_engine" path="system/update_engine" revision="7c98f6d2a9b7da85671eb8fad3b0704c8d44a832" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0" groups="pdk"/>
   <project name="LineageOS/android_system_vold" path="system/vold" revision="5cbee1431fcd7e0b0174e0bea22a11145f1cf592" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0" groups="pdk"/>
-  <project name="LineageOS/android_tools_extract-utils" path="tools/extract-utils" revision="871fee07ba4fc5b3dcc1d1c2be9d995d29c6707e" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0"/>
+  <project name="LineageOS/android_tools_extract-utils" path="tools/extract-utils" revision="ce778492c3e4d9d1f30f76ee789a499ff2be2bba" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0"/>
   <project name="LineageOS/android_vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" revision="2718fce9ba0d3cf5684f0415349091b434574170" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0" groups="qcom,qssi"/>
   <project name="LineageOS/android_vendor_qcom_opensource_agm" path="hardware/qcom-caf/sm8450/audio/agm" revision="10bbf423e45af236431889daced6517f66720238" upstream="lineage-23.0-caf-sm8450" dest-branch="lineage-23.0-caf-sm8450" groups="qcom,waipio-vendor"/>
   <project name="LineageOS/android_vendor_qcom_opensource_agm" path="hardware/qcom-caf/sm8550/audio/agm" revision="153175c5bbe5130ee523dfb939cce3562cef83d7" upstream="lineage-23.0-caf-sm8550" dest-branch="lineage-23.0-caf-sm8550" groups="qcom,kailua-audio"/>
@@ -1098,13 +1083,28 @@
     <linkfile src="root.bp" dest="Android.bp"/>
     <linkfile src="bootstrap.bash" dest="bootstrap.bash"/>
   </project>
-  <project name="platform_device_bliss_sepolicy" path="device/bliss/sepolicy" remote="BlissRoms" revision="685154465e83279cb705f3ebd987d7e484f655d6" upstream="waterlily" dest-branch="waterlily"/>
+  <project name="platform_device_bliss_sepolicy" path="device/bliss/sepolicy" remote="BlissRoms" revision="d02f302b651879dd8d6c94e48dbe8b265e303831" upstream="waterlily" dest-branch="waterlily"/>
   <project name="platform_external_bouncycastle" path="external/bouncycastle" remote="BlissRoms" revision="b5e55a68a688e7a2fa7bacc82d55fa021bb386cc" upstream="waterlily" dest-branch="waterlily" groups="pdk"/>
-  <project name="platform_frameworks_av" path="frameworks/av" remote="BlissRoms" revision="5994b6bcc61ca19fc876e259e1fdab4da4316c74" upstream="waterlily" dest-branch="waterlily" groups="pdk,sysui-studio"/>
-  <project name="platform_frameworks_base" path="frameworks/base" remote="BlissRoms" revision="09d52683f6534cc61eb6ed0195ed7e25232f9011" upstream="waterlily" dest-branch="waterlily" groups="pdk-cw-fs,pdk-fs,sysui-studio"/>
+  <project name="platform_frameworks_av" path="frameworks/av" remote="BlissRoms" revision="bc949f8e0f02165142c7ebf60808b4facbfe1917" upstream="waterlily" dest-branch="waterlily" groups="pdk,sysui-studio"/>
+  <project name="platform_frameworks_base" path="frameworks/base" remote="BlissRoms" revision="05cf013771023d2225a740e58b092e19f26a2b4c" upstream="waterlily" dest-branch="waterlily" groups="pdk-cw-fs,pdk-fs,sysui-studio"/>
   <project name="platform_frameworks_libs_systemui" path="frameworks/libs/systemui" remote="BlissRoms" revision="58e576383e6b18915728c0e56d7e2445a88827c6" upstream="waterlily" dest-branch="waterlily" groups="pdk-cw-fs,pdk-fs,sysui-studio"/>
   <project name="platform_frameworks_native" path="frameworks/native" remote="BlissRoms" revision="a2613b6404377396e70af57c6ec9cad5ac3ba3f5" upstream="waterlily" dest-branch="waterlily" groups="pdk"/>
   <project name="platform_hardware_bliss_interfaces" path="hardware/bliss/interfaces" remote="BlissRoms" revision="6d8d9f11e48c8b44f0e2ffebb620356bf589b5fd" upstream="waterlily" dest-branch="waterlily"/>
+  <project name="platform_hardware_qcom-caf_common" path="hardware/qcom-caf/common" remote="BlissRoms" revision="70b80c22c6946913c7f485edc9d791120ed2c2be" upstream="waterlily" dest-branch="waterlily" groups="qcom">
+    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk"/>
+    <linkfile src="os_pickup_sepolicy_vndr.mk" dest="device/qcom/sepolicy_vndr/SEPolicy.mk"/>
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/msm8953/Android.bp"/>
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp"/>
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm660/Android.bp"/>
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp"/>
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp"/>
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp"/>
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp"/>
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8450/Android.bp"/>
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8550/Android.bp"/>
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8650/Android.bp"/>
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8750/Android.bp"/>
+  </project>
   <project name="platform_lineage-sdk" path="lineage-sdk" remote="BlissRoms" revision="dc1a2d3a9983a7c7d87ff31b7560f3d016db2acb" upstream="waterlily" dest-branch="waterlily"/>
   <project name="platform_packages_apps_Backgrounds" path="packages/apps/Backgrounds" remote="BlissRoms" revision="e1ba98a4cdd55b7145ba24fc31a985a9997d727a" upstream="waterlily" dest-branch="waterlily"/>
   <project name="platform_packages_apps_BlissUpdater" path="packages/apps/BlissUpdater" remote="BlissRoms" revision="e9fcdf8babbb55e0f67806aad8624e2504c9f407" upstream="waterlily" dest-branch="waterlily"/>
@@ -1131,7 +1131,7 @@
   <project name="platform_system_core" path="system/core" remote="BlissRoms" revision="d14a7346616bb4018c30344a13ff798a3e6d9454" upstream="waterlily" dest-branch="waterlily" groups="pdk"/>
   <project name="platform_system_libhidl" path="system/libhidl" remote="BlissRoms" revision="0cd6e82ac6180312e949eb36aa41ec5cf9cbc7cd" upstream="waterlily" dest-branch="waterlily" groups="pdk,sysui-studio"/>
   <project name="platform_system_sepolicy" path="system/sepolicy" remote="BlissRoms" revision="843657e989e00b2c8b3ada96eeb2da5f91087533" upstream="waterlily" dest-branch="waterlily" groups="pdk"/>
-  <project name="platform_vendor_bliss" path="vendor/bliss" remote="BlissRoms" revision="d203b722b4f4f4886909cab545c0f6aad4f053ae" upstream="waterlily" dest-branch="waterlily"/>
+  <project name="platform_vendor_bliss" path="vendor/bliss" remote="BlissRoms" revision="dd5966d8bdaffda3cb126407abc6a353df235674" upstream="waterlily" dest-branch="waterlily"/>
   <project name="platform_vendor_extras" path="vendor/extras" remote="BlissRoms" revision="348d7a7fca9e72643b09a1089ebe97e4b00257c7" upstream="waterlily" dest-branch="waterlily"/>
   <project name="toolchain/pgo-profiles" remote="aosp" revision="17fc8d37e16aaf065334058cc02a82f0df195340" upstream="refs/tags/android-16.0.0_r1" dest-branch="refs/tags/android-16.0.0_r1" groups="pdk" clone-depth="1"/>
   <project name="tools/platform-compat" remote="aosp" revision="db0de6104d8527114a7ae441b0a9c35f885d2876" upstream="refs/tags/android-16.0.0_r1" dest-branch="refs/tags/android-16.0.0_r1" groups="pdk-cw-fs,pdk-fs,pdk"/>
