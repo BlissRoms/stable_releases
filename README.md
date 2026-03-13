@@ -1,98 +1,151 @@
-<img src="banner.png">
 <p align="center">
-<a href="https://blissroms.org">Website</a> |
-<a href="https://downloads.blissroms.org">Download</a> |
-<a href="https://www.paypal.com/donate/?hosted_button_id=J5SLZ7MQNCT24">Donate</a> |
-<a href="https://docs.blissroms.org">Documentation</a> |
-<a href="https://www.instagram.com/blissroms">Instagram</a> |
-<a href="https://t.me/BlissROM_Updates">Telegram</a>
+  <img src="banner.png" alt="BlissRoms Banner">
+</p>
 
-## BlissRoms
+<p align="center">
+  <a href="https://blissroms.org">Website</a> |
+  <a href="https://blissroms.org/downloads">Download</a> |
+  <a href="https://docs.blissroms.org">Documentation</a> |
+  <a href="https://blissroms.org/blog">Blog</a> |
+  <a href="https://github.com/BlissRoms">GitHub</a>
+</p>
 
-Download the BlissRoms source code, based on [AOSP](https://android.googlesource.com) & [BlissRoms](https://github.com/BlissRoms/platform_manifest)
+<p align="center">
+  <a href="https://t.me/BlissROM_Updates">Telegram Channel</a> |
+  <a href="https://t.me/Team_Bliss_Community">Telegram Community</a> |
+  <a href="https://twitter.com/bliss_roms">Twitter</a> |
+  <a href="https://mastodon.social/@blissroms">Mastodon</a> |
+  <a href="https://bsky.app/profile/blissroms.bsky.social">Bluesky</a> |
+  <a href="https://www.instagram.com/blissroms">Instagram</a> |
+  <a href="https://www.facebook.com/BlissROMs">Facebook</a>
+</p>
 
----------------------------------------------------
+<p align="center">
+  <a href="https://opencollective.com/blissroms">Donate via OpenCollective</a>
+</p>
 
-Please read the [AOSP building instructions](http://source.android.com/source/index.html) before proceeding.
+## BlissRoms - Voyager (Android 15)
 
------------------------
-## What you need to build [BlissRoms](https://github.com/BlissROMs/platform_manifest)
+An open-source Android ROM project by [BlissLabs](https://blissroms.org), focused on providing a clean, stable, and feature-rich Android experience. Built on [AOSP](https://android.googlesource.com) with carefully selected enhancements and optimizations.
 
+Please read the [AOSP building instructions](https://source.android.com/source/index.html) before proceeding.
 
-    Latest Ubuntu LTS Releases https://www.ubuntu.com/download/server
-    Decent CPU (Dual Core or better for a faster performance)
-    8GB RAM (16GB for Virtual Machine)
-    250GB Hard Drive (about 170GB for the Repo and then building space needed)
-  
------------------------
+---
 
-Installing Java 8
+## Requirements
 
-    sudo add-apt-repository ppa:openjdk/ppa
-    sudo apt-get update && upgrade
-    sudo apt-get install openjdk-8-jdk
-    update-alternatives --config java  (make sure Java 8 is selected)
-    update-alternatives --config javac (make sure Java 8 is selected)
-    reboot
-    
------------------------
+- **OS:** Latest [Ubuntu LTS](https://www.ubuntu.com/download/server) release (22.04 or 24.04 recommended)
+- **CPU:** Quad-core or better recommended
+- **RAM:** 16GB minimum (32GB recommended, 64GB for virtual machines)
+- **Storage:** 400GB+ free disk space (source ~200GB + build output)
+- **Java:** OpenJDK 17
+- **Python:** Python 3
+
+---
+
+## Installing Java 17
+
+```bash
+sudo apt-get update && sudo apt-get upgrade
+sudo apt-get install openjdk-17-jdk
+sudo update-alternatives --config java   # Make sure Java 17 is selected
+sudo update-alternatives --config javac  # Make sure Java 17 is selected
+```
+
+---
+
+## Installing `repo`
+
+```bash
+mkdir -p ~/bin
+curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+chmod a+x ~/bin/repo
+```
+
+Make sure `~/bin` is in your `PATH`:
+
+```bash
+echo 'export PATH=~/bin:$PATH' >> ~/.bashrc
+source ~/.bashrc
+```
+
+---
 
 ## Grabbing Dependencies
 
-    sudo apt-get install git-core gnupg flex bison gperf build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386  lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev ccache libgl1-mesa-dev libxml2-utils xsltproc unzip squashfs-tools python-mako libssl-dev ninja-build lunzip syslinux syslinux-utils gettext genisoimage gettext bc xorriso xmlstarlet git-lfs
+```bash
+sudo apt-get install git-core gnupg flex bison gperf build-essential zip curl \
+    zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 lib32ncurses-dev \
+    x11proto-core-dev libx11-dev lib32z-dev ccache libgl1-mesa-dev \
+    libxml2-utils xsltproc unzip squashfs-tools python3-mako libssl-dev \
+    ninja-build lunzip syslinux syslinux-utils gettext genisoimage bc \
+    xorriso xmlstarlet git-lfs
+```
+
+---
 
 ## Initializing Repository
 
-**Repo initialization**
-   
-    repo init -u https://github.com/BlissRoms/stable_releases.git -b refs/tags/v18.7-stable-voyager --git-lfs
+**Repo initialization:**
 
-**Sync repo**
+```bash
+repo init -u https://github.com/BlissRoms/stable_releases.git -b refs/tags/v18.7-stable-voyager --git-lfs
+```
 
-    repo sync -c --force-sync --no-tags --no-clone-bundle -j10 --optimized-fetch --prune
+**Sync repo:**
 
-## Options
+```bash
+repo sync -c --force-sync --no-tags --no-clone-bundle -j$(nproc) --optimized-fetch --prune
+```
 
-	BLISS_BUILD_VARIANT - (vanilla, gapps, foss, microg) - We currently use this to specify what type of extra apps and services to include in the build. 
-***Note: Default BLISS_BUILD_VARIANT is VANILLA.***
+---
+
+## Build Options
+
+`BLISS_BUILD_VARIANT` - (vanilla, gapps, foss, microg) - Specifies what type of extra apps and services to include in the build.
+
+> **Note:** Default `BLISS_BUILD_VARIANT` is **VANILLA**.
+
+---
 
 ## Building
 
-     . build/envsetup.sh
-     blissify options deviceCodename
-     
+```bash
+. build/envsetup.sh
+blissify [options] <deviceCodename>
+```
 
 **Options:**
-```
--h | --help: Shows the help dialog
--c | --clean: Clean up before running the build
--d | --devclean: Clean up device only before running the build
--v | --vanilla: Build with no added app store solution **default option**
--g | --gapps: Build with Minimal Google Play Services added
--f | --foss: build with FOSS (arm64-v8a) app store solutions added **requires vendor/foss**
--m | --microg: Build with MicroG
-```
+
+| Flag | Description |
+|------|-------------|
+| `-h` / `--help` | Show the help dialog |
+| `-c` / `--clean` | Clean up before running the build |
+| `-d` / `--devclean` | Clean up device tree only before running the build |
+| `-v` / `--vanilla` | Build with no added app store solution *(default)* |
+| `-g` / `--gapps` | Build with Minimal Google Play Services added |
+| `-f` / `--foss` | Build with FOSS (arm64-v8a) app store solutions added *(requires vendor/foss)* |
+| `-m` / `--microg` | Build with MicroG |
 
 **Examples:**
 
-- **To build with gapps**
-```
-     blissify -g deviceCodename
+```bash
+# Build with GApps
+blissify -g deviceCodename
+
+# Build with FOSS
+blissify -f deviceCodename
+
+# Build with GApps and device clean
+blissify -g -d deviceCodename
+
+# Vanilla build (legacy-compatible)
+blissify deviceCodename
 ```
 
-- **To build with FOSS**
-```
-     blissify -f deviceCodename
-```
+---
 
-- **To build with gapps and deviceclean**
-```
-     blissify -g -d deviceCodename
-```
+## Report Build Issues
 
-**This method is also backwards compatible with the legacy blissify command also**
-```
-     blissify deviceCodename
-```
-## Report build issues
-- You can reach us via [Telegram (BlissRoms Build Support)](https://t.me/Team_Bliss_Build_Support)
+- [Telegram - Build Support](https://t.me/Team_Bliss_Build_Support)
+- [Telegram - Community](https://t.me/Team_Bliss_Community)
