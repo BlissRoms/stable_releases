@@ -1200,7 +1200,7 @@
   <project name="trusty/vendor/google/aosp" remote="aosp" revision="d7d9290a95487f224042ff08a374c4261940b15d" upstream="refs/tags/android-16.0.0_r4" dest-branch="refs/tags/android-16.0.0_r4" groups="pdk,trusty">
     <copyfile src="lk_inc.mk" dest="lk_inc.mk"/>
   </project>
-  <project name="vendor_gms" path="vendor/gms" remote="BlissRoms-GitLab" revision="6d92725342118ab92af40a7410a9dfd13abe7940" upstream="waterlily-qpr2" dest-branch="waterlily-qpr2"/>
+  <project name="vendor_gms" path="vendor/gms" remote="BlissRoms-GitLab" revision="3136109d937b6c74eda8f2ee821c4c2913d974ff" upstream="waterlily-qpr2" dest-branch="waterlily-qpr2"/>
   
   <contactinfo bugurl="go/repo-bug"/>
 </manifest>
