@@ -1148,7 +1148,7 @@
   </project>
   <project name="platform_lineage-sdk" path="lineage-sdk" remote="BlissRoms" revision="7f4d0e1b81b8aba22d589878d2e9388ca12e4bfe" upstream="waterlily-qpr2" dest-branch="waterlily-qpr2"/>
   <project name="platform_packages_apps_Backgrounds" path="packages/apps/Backgrounds" remote="BlissRoms" revision="cfc7c7cd2c532f557593390fa25316692fd6af67" upstream="waterlily-qpr2" dest-branch="waterlily-qpr2"/>
-  <project name="platform_packages_apps_BlissUpdater" path="packages/apps/BlissUpdater" remote="BlissRoms" revision="4107be4f0cc773f28aa9a12c1789ed11b018b2bc" upstream="waterlily-qpr2" dest-branch="waterlily-qpr2"/>
+  <project name="platform_packages_apps_BlissUpdater" path="packages/apps/BlissUpdater" remote="BlissRoms" revision="fb89ed1c6fc8f9779c503653c3a7b3aaaf1fbe79" upstream="waterlily-qpr2" dest-branch="waterlily-qpr2"/>
   <project name="platform_packages_apps_Blissify" path="packages/apps/Blissify" remote="BlissRoms" revision="b6fa72b50fa75680d03db9dca64f572266fc49e0" upstream="waterlily-qpr2" dest-branch="waterlily-qpr2"/>
   <project name="platform_packages_apps_GameSpace" path="packages/apps/GameSpace" remote="BlissRoms" revision="2f0b261953504482359202c46f07d77a9b63f841" upstream="waterlily-qpr2" dest-branch="waterlily-qpr2"/>
   <project name="platform_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="BlissRoms" revision="ba7cab7aa1d05ea9ec79c92a2f1aea7a9da34aca" upstream="waterlily-qpr2" dest-branch="waterlily-qpr2" groups="pdk-cw-tvc,pdk-fs,sysui-studio"/>
