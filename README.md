@@ -79,7 +79,7 @@ sudo apt-get install git-core gnupg flex bison gperf build-essential zip curl \
     x11proto-core-dev libx11-dev lib32z-dev ccache libgl1-mesa-dev \
     libxml2-utils xsltproc unzip squashfs-tools python3-mako libssl-dev \
     ninja-build lunzip syslinux syslinux-utils gettext genisoimage bc \
-    xorriso xmlstarlet git-lfs
+    xorriso xmlstarlet git-lfs rsync
 ```
 
 ---
