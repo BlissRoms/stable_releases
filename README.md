@@ -24,7 +24,7 @@
   <a href="https://opencollective.com/blissroms">Donate via OpenCollective</a>
 </p>
 
-## BlissRoms - Waterlily (Android 16)
+## BlissRoms - Xylobium (Android 17)
 
 An open-source Android ROM project by [BlissLabs](https://blissroms.org), focused on providing a clean, stable, and feature-rich Android experience. Built on [AOSP](https://android.googlesource.com) with carefully selected enhancements and optimizations.
 
@@ -89,7 +89,7 @@ sudo apt-get install git-core gnupg flex bison gperf build-essential zip curl \
 **Repo initialization:**
 
 ```bash
-repo init -u https://github.com/BlissRoms/stable_releases.git -b waterlily --git-lfs
+repo init -u https://github.com/BlissRoms/stable_releases.git -b refs/tags/v20.0-stable-xylobium --git-lfs
 ```
 
 **Sync repo:**
@@ -141,6 +141,15 @@ blissify -g -d deviceCodename
 
 # Vanilla build (legacy-compatible)
 blissify deviceCodename
+```
+
+**Notes for GApps builds (since initial Xylobium builds MTG for GApps)**
+
+Add this to your device trees BoardConfig.mk or common trees to have the makefile inherited
+
+```bash
+# GApps Architecture
+GAPPS_ARCH := arm64 (choices are arm, arm64, x86_64)
 ```
 
 ---
