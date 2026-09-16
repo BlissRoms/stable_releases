@@ -89,7 +89,7 @@ sudo apt-get install git-core gnupg flex bison gperf build-essential zip curl \
 **Repo initialization:**
 
 ```bash
-repo init -u https://github.com/BlissRoms/stable_releases.git -b waterlily --git-lfs
+repo init -u https://github.com/BlissRoms/stable_releases.git -b refs/tags/v19.6.1-stable-waterlily --git-lfs
 ```
 
 **Sync repo:**
