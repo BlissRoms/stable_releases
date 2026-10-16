@@ -89,7 +89,7 @@ sudo apt-get install git-core gnupg flex bison gperf build-essential zip curl \
 **Repo initialization:**
 
 ```bash
-repo init -u https://github.com/BlissRoms/stable_releases.git -b refs/tags/v20.0-stable-xylobium --git-lfs
+repo init -u https://github.com/BlissRoms/stable_releases.git -b refs/tags/v20.1-stable-xylobium --git-lfs
 ```
 
 **Sync repo:**
