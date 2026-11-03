@@ -1279,7 +1279,7 @@
   <project name="platform_packages_apps_Glimpse" path="packages/apps/Glimpse" remote="BlissRoms" revision="ec839281992c84e1a8147a5d651f0fb5cbc8a968" upstream="xylobium" dest-branch="xylobium"/>
   <project name="platform_packages_apps_Jelly" path="packages/apps/Jelly" remote="BlissRoms" revision="9b149241e29dc53be4de95ca48924c6c599020e8" upstream="xylobium" dest-branch="xylobium"/>
   <project name="platform_packages_apps_LMOFreeform" path="packages/apps/LMOFreeform" remote="BlissRoms" revision="753b88f542c8ac20c1b6a1ab60c703ba1c2ea5d4" upstream="xylobium" dest-branch="xylobium"/>
-  <project name="platform_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="BlissRoms" revision="e9f557b0baac04ee1c10b0dd511d85e738ad1821" upstream="xylobium" dest-branch="xylobium" groups="pdk-cw-tvc,pdk-fs,sysui-studio"/>
+  <project name="platform_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="BlissRoms" revision="b2d74a081954e53cf65f344346116455b7e9f27a" upstream="xylobium" dest-branch="xylobium" groups="pdk-cw-tvc,pdk-fs,sysui-studio"/>
   <project name="platform_packages_apps_LineageParts" path="packages/apps/LineageParts" remote="BlissRoms" revision="b244d87b9050d4550ed2b6e457322e60571ce84c" upstream="xylobium" dest-branch="xylobium"/>
   <project name="platform_packages_apps_Messaging" path="packages/apps/Messaging" remote="BlissRoms" revision="bd8c23d3e237ba2d31ba60d7720a9b1b2df97a5c" upstream="xylobium" dest-branch="xylobium" groups="pdk-fs"/>
   <project name="platform_packages_apps_Recorder" path="packages/apps/Recorder" remote="BlissRoms" revision="66292976811ee4bd74fb7eaaf5cec9a60cb4f53d" upstream="xylobium" dest-branch="xylobium"/>
