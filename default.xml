@@ -1389,7 +1389,7 @@
   <project name="platform_packages_apps_Blissify" path="packages/apps/Blissify" remote="BlissRoms" revision="1af8f92dd2fd9ddae01b9ebfd2960ec0b269cc92" upstream="xylobium" dest-branch="xylobium"/>
   <project name="platform_packages_apps_Contacts" path="packages/apps/Contacts" remote="BlissRoms" revision="46857e06918badff24aba16ea4f8f293a0ffbeeb" upstream="xylobium" dest-branch="xylobium" groups="pdk-fs"/>
   <project name="platform_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="BlissRoms" revision="3da07111dd3332cfd001f8419e19794d6b2fa77c" upstream="xylobium" dest-branch="xylobium" groups="pdk-fs"/>
-  <project name="platform_packages_apps_Dialer" path="packages/apps/Dialer" remote="BlissRoms" revision="62671d5f5122fbb6dbb3fe1fa080a9cb521c0ce8" upstream="xylobium" dest-branch="xylobium" groups="pdk-fs"/>
+  <project name="platform_packages_apps_Dialer" path="packages/apps/Dialer" remote="BlissRoms" revision="8ba3fb69334e170e388b2e52d7cdfca93be5d9f6" upstream="xylobium" dest-branch="xylobium" groups="pdk-fs"/>
   <project name="platform_packages_apps_DocumentsUI" path="packages/apps/DocumentsUI" remote="BlissRoms" revision="e0c161fd9aba08d3d891be17ac2313c834b25960" upstream="xylobium" dest-branch="xylobium" groups="pdk-cw-fs,pdk-fs"/>
   <project name="platform_packages_apps_Etar" path="packages/apps/Etar" remote="BlissRoms" revision="98d1c9655dc350cbf1089f5b5a5f87cd5e663153" upstream="xylobium" dest-branch="xylobium"/>
   <project name="platform_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="BlissRoms" revision="91ad37103dcbf2919d59c871cc55770fe0d45e29" upstream="xylobium" dest-branch="xylobium"/>
